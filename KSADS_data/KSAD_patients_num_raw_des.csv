@@ -1,0 +1,1044 @@
+ksad_code,description,num_patients,per_patients
+KEY,,-1.0,-1.0
+ADraw,,-1.0,-1.0
+ADHDraw,,-1.0,-1.0
+ASDraw,,-1.0,-1.0
+ASPraw,,-1.0,-1.0
+BIPraw,,-1.0,-1.0
+BMIraw,,-1.0,-1.0
+CANNABISraw,,-1.0,-1.0
+CPraw,,-1.0,-1.0
+DEPRESSIONraw,,-1.0,-1.0
+DRINKraw,,-1.0,-1.0
+EAraw,,-1.0,-1.0
+GENERALHAPPINESSraw,,-1.0,-1.0
+GENERALHAPPINESS_HEALTraw,,-1.0,-1.0
+GENERALHAPPINESS_MEANINGFULraw,,-1.0,-1.0
+HAPPINESSraw,,-1.0,-1.0
+INSOMNIAraw,,-1.0,-1.0
+IQraw,,-1.0,-1.0
+MDDraw,,-1.0,-1.0
+NEUROTICISMraw,,-1.0,-1.0
+PTSDraw,,-1.0,-1.0
+RISK4PCraw,,-1.0,-1.0
+RISKTOLraw,,-1.0,-1.0
+SCZraw,,-1.0,-1.0
+SMOKERraw,,-1.0,-1.0
+SNORINGraw,,-1.0,-1.0
+WORRYraw,,-1.0,-1.0
+ADnorm,,-1.0,-1.0
+ADHDnorm,,-1.0,-1.0
+ASDnorm,,-1.0,-1.0
+ASPnorm,,-1.0,-1.0
+BIPnorm,,-1.0,-1.0
+BMInorm,,-1.0,-1.0
+CANNABISnorm,,-1.0,-1.0
+CPnorm,,-1.0,-1.0
+DEPRESSIONnorm,,-1.0,-1.0
+DRINKnorm,,-1.0,-1.0
+EAnorm,,-1.0,-1.0
+GENERALHAPPINESSnorm,,-1.0,-1.0
+GENERALHAPPINESS_HEALTnorm,,-1.0,-1.0
+GENERALHAPPINESS_MEANINGFULnorm,,-1.0,-1.0
+HAPPINESSnorm,,-1.0,-1.0
+INSOMNIAnorm,,-1.0,-1.0
+IQnorm,,-1.0,-1.0
+MDDnorm,,-1.0,-1.0
+NEUROTICISMnorm,,-1.0,-1.0
+PTSDnorm,,-1.0,-1.0
+RISK4PCnorm,,-1.0,-1.0
+RISKTOLnorm,,-1.0,-1.0
+SCZnorm,,-1.0,-1.0
+SMOKERnorm,,-1.0,-1.0
+SNORINGnorm,,-1.0,-1.0
+WORRYnorm,,-1.0,-1.0
+AD0to1,,-1.0,-1.0
+ADHD0to1,,-1.0,-1.0
+ASD0to1,,-1.0,-1.0
+ASP0to1,,-1.0,-1.0
+BIP0to1,,-1.0,-1.0
+BMI0to1,,-1.0,-1.0
+CANNABIS0to1,,-1.0,-1.0
+CP0to1,,-1.0,-1.0
+DEPRESSION0to1,,-1.0,-1.0
+DRINK0to1,,-1.0,-1.0
+EA0to1,,-1.0,-1.0
+GENERALHAPPINESS0to1,,-1.0,-1.0
+GENERALHAPPINESS_HEALT0to1,,-1.0,-1.0
+GENERALHAPPINESS_MEANINGFUL0to1,,-1.0,-1.0
+HAPPINESS0to1,,-1.0,-1.0
+INSOMNIA0to1,,-1.0,-1.0
+IQ0to1,,-1.0,-1.0
+MDD0to1,,-1.0,-1.0
+NEUROTICISM0to1,,-1.0,-1.0
+PTSD0to1,,-1.0,-1.0
+RISK4PC0to1,,-1.0,-1.0
+RISKTOL0to1,,-1.0,-1.0
+SCZ0to1,,-1.0,-1.0
+SMOKER0to1,,-1.0,-1.0
+SNORING0to1,,-1.0,-1.0
+WORRY0to1,,-1.0,-1.0
+collection_id,collection_id,-1.0,-1.0
+abcd_ksad01_id,abcd_ksad01_id,-1.0,-1.0
+dataset_id,dataset_id,-1.0,-1.0
+subjectkey,The NDAR Global Unique Identifier (GUID) for research subject,-1.0,-1.0
+src_subject_id,Subject ID how it's defined in lab/project,-1.0,-1.0
+interview_date,Date on which the interview/genetic test/sampling/imaging/biospecimen was completed. MM/DD/YYYY,-1.0,-1.0
+interview_age,Age in months at the time of the interview/test/sampling/imaging.,-1.0,-1.0
+gender,Sex of the subject,-1.0,-1.0
+eventname,The event name for which the data was collected,-1.0,-1.0
+ksads_import_id_p,Unique ID provided by KSADS for dataset,-1.0,-1.0
+ksads_1_843_p,Diagnosis - Persistent Depressive Disorder (Dysthymia) PRESENT F34.1,0.0,0.0
+ksads_1_845_p,Diagnosis - Persistent Depressive Disorder (Dysthymia) PAST F34.1,6.0,0.131550098662574
+ksads_1_844_p,Diagnosis - Persistent Depressive Disorder (Dysthymia) In Partial Remission F34.1,0.0,0.0
+ksads_1_840_p,Diagnosis - Major Depressive Disorder Present,7.0,0.15347511510633632
+ksads_1_841_p,Diagnosis - Major Depressive Disorder Current in Partial Remission (F32.4),6.0,0.131550098662574
+ksads_1_842_p,Diagnosis - Major Depressive Disorder Past (F32.9),92.0,2.0171015128261347
+ksads_1_847_p,Diagnosis - Unspecified Depressive Disorder PAST (F32.9),163.0,3.57377768033326
+ksads_1_846_p,Diagnosis - Unspecified Depressive Disorder Current (F32.9),6.0,0.131550098662574
+ksads_1_172_p,Symptom - Weight Gain Past,57.0,1.249725937294453
+ksads_1_168_p,Symptom - Weight Loss Past,28.0,0.6139004604253453
+ksads_1_171_p,Symptom - Weight Gain Present,26.0,0.5700504275378206
+ksads_1_167_p,Symptom - Weight Loss Present,3.0,0.065775049331287
+ksads_1_3_p,Symptom - Irritability Present,65.0,1.4251260688445515
+ksads_1_4_p,Symptom - Irritability Past,293.0,6.424029818022363
+ksads_1_156_p,Symptom - Insomnia when depressed Past,197.0,4.31922823942118
+ksads_1_163_p,Symptom - Indecision Present,14.0,0.30695023021267265
+ksads_1_164_p,Symptom - Indecision Past,178.0,3.902652926989695
+ksads_1_170_p,Symptom - Increased Appetite Past,70.0,1.5347511510633634
+ksads_1_169_p,Symptom - Increased Appetite Present,12.0,0.263100197325148
+ksads_1_188_p,Symptom - No two month symptom-free interval Past,2665.0,58.43016882262661
+ksads_1_187_p,Symptom - No two month symptom-free interval Present,2663.0,58.386318789739086
+ksads_1_175_p,Symptom - Psychomotor Retardation Present,2.0,0.04385003288752467
+ksads_1_176_p,Symptom - Psychomotor Retardation Past,55.0,1.2058759044069283
+ksads_1_173_p,Symptom - Psychomotor Agitation in Depressive Disorder Present,33.0,0.723525542644157
+ksads_1_174_p,Symptom - Psychomotor Agitation in Depressive Disorder Past,186.0,4.078053058539794
+ksads_1_185_p,Symptom - Presence of two or more depressive symptoms Present,21.0,0.46042534531900897
+ksads_1_186_p,Symptom - Presence of two or more depressive symptoms Past,16.0,0.35080026310019735
+ksads_1_166_p,Symptom - Decreased Appetite Past,105.0,2.302126726595045
+ksads_1_181_p,Symptom - Decreased Self-Esteem Present,17.0,0.3727252795439596
+ksads_1_165_p,Symptom - Decreased Appetite Present,4.0,0.08770006577504934
+ksads_1_182_p,Symptom - Decreased Self-Esteem Past,225.0,4.933128699846525
+ksads_1_1_p,Symptom - Depressed Mood Present,32.0,0.7016005262003947
+ksads_1_2_p,Symptom - Depressed Mood Past,259.0,5.678579258934445
+ksads_1_5_p,Symptom - Anhedonia Present,59.0,1.2935759701819776
+ksads_1_6_p,Symptom - Anhedonia Past,190.0,4.165753124314843
+ksads_1_161_p,Symptom - Concentration Disturbance Present,37.0,0.8112256084192063
+ksads_1_162_p,Symptom - Concentration Disturbance Past,252.0,5.525104143828107
+ksads_1_159_p,Symptom - Fatigue Present,7.0,0.15347511510633632
+ksads_1_160_p,Symptom - Fatigue Past,152.0,3.3326024994518746
+ksads_1_183_p,Symptom - Impairment in functioning due to depression Present,92.0,2.0171015128261347
+ksads_1_184_p,Symptom - Impairment in functioning due to depression Past,380.0,8.331506248629687
+ksads_1_180_p,Symptom - Hopeless Past,0.0,0.0
+ksads_1_179_p,Symptom - Hopeless Present,7.0,0.15347511510633632
+ksads_1_157_p,Symptom - Hypersomnia Present,2.0,0.04385003288752467
+ksads_1_158_p,Symptom - Hypersomnia Past,51.0,1.118175838631879
+ksads_1_177_p,Symptom - Guilt Present,8.0,0.17540013155009868
+ksads_1_178_p,Symptom - Guilt Past,126.0,2.7625520719140537
+ksads_2_837_p,Diagnosis - Bipolar II Disorder most recent past hypomanic ξF31.81,38.0,0.8331506248629686
+ksads_2_835_p,Diagnosis - Bipolar II Disorder currently hypomanic ξF31.81,0.0,0.0
+ksads_2_836_p,Diagnosis - Bipolar II Disorder currently depressed F31.81,3.0,0.065775049331287
+ksads_2_831_p,Diagnosis - Bipolar I Disorder current episode depressed F31.3x,3.0,0.065775049331287
+ksads_2_832_p,Diagnosis - Bipolar I Disorder currently hypomanic  F31.0,1.0,0.021925016443762334
+ksads_2_830_p,Diagnosis - Bipolar I Disorder current episode manic (F31.1x),2.0,0.04385003288752467
+ksads_2_833_p,Diagnosis - Bipolar I Disorder most recent past episode manic (F31.1x),76.0,1.6663012497259373
+ksads_2_834_p,Diagnosis - Bipolar I Disorder most recent past episode depressed (F31.1.3x),5.0,0.10962508221881166
+ksads_2_839_p,Diagnosis - Unspecified Bipolar and Related Disorder PAST (F31.9),125.0,2.7406270554702914
+ksads_2_838_p,Diagnosis - Unspecified Bipolar and Related Disorder current ξ(F31.9),11.0,0.24117518088138568
+ksads_2_12_p,Symptom - Decreased Need for Sleep Present,8.0,0.17540013155009868
+ksads_2_13_p,Symptom - Decreased Need for Sleep Past,76.0,1.6663012497259373
+ksads_2_209_p,Symptom - Distractibility Present,71.0,1.5566761675071257
+ksads_2_211_p,Symptom - Distractibility Past,558.0,12.234159175619382
+ksads_2_195_p,Symptom - Grandiosity Present,71.0,1.5566761675071257
+ksads_2_196_p,Symptom - Grandiosity Past,283.0,6.20477965358474
+ksads_2_14_p,Symptom - Hypersexuality Present,1.0,0.021925016443762334
+ksads_2_15_p,Symptom - Hypersexuality Past,60.0,1.3155009866257399
+ksads_2_217_p,Symptom - Hospitalized due to Bipolar Disorder Present,5.0,0.10962508221881166
+ksads_2_218_p,Symptom - Hospitalized due to Bipolar Disorder Past,31.0,0.6796755097566323
+ksads_2_216_p,Symptom - Impairment in functioning due to bipolar Past,828.0,18.15391361543521
+ksads_2_215_p,Symptom - Impairment in functioning due to bipolar Present,160.0,3.508002631001973
+ksads_2_201_p,Symptom - Flight of Ideas Present,23.0,0.5042753782065337
+ksads_2_202_p,Symptom - Flight of Ideas Past,217.0,4.757728568296427
+ksads_2_213_p,Symptom - Excessive Involvement in high risk activities Present,19.0,0.4165753124314843
+ksads_2_214_p,Symptom - Excessive Involvement in high risk activities Past,92.0,2.0171015128261347
+ksads_2_11_p,Symptom - Explosive Irritability Past,1235.0,27.07739530804648
+ksads_2_10_p,Symptom - ExplosiveIrritability PresentNext ξ,1109.0,24.31484323613243
+ksads_2_9_p,Symptom - Explosive Irritability Present,279.0,6.117079587809691
+ksads_2_7_p,Symptom - Elevated Mood Present,94.0,2.0609515457136593
+ksads_2_8_p,Symptom - Elevated Mood Past,257.0,5.63472922604692
+ksads_2_191_p,Symptom - Elevated / Euphoric Mood Present,0.0,0.0
+ksads_2_193_p,Symptom - Elevated / Euphoric Mood Past,6.0,0.131550098662574
+ksads_2_189_p,Symptom - Preliminary substance rule out bipolar present,0.0,0.0
+ksads_2_190_p,Symptom - Preliminary substance rule out bipolar past,0.0,0.0
+ksads_2_197_p,Symptom - Pressured Speech Present,51.0,1.118175838631879
+ksads_2_198_p,Symptom - Pressured Speech Past,205.0,4.494628370971278
+ksads_2_207_p,Symptom - Psychomotor Agitation in Bipolar Disorder Present,97.0,2.1267265950449463
+ksads_2_208_p,Symptom - Psychomotor Agitation in Bipolar Disorder Past,369.0,8.0903310677483
+ksads_2_200_p,Symptom - Racing Thoughts Past,197.0,4.31922823942118
+ksads_2_199_p,Symptom - Racing Thoughts Present,24.0,0.526200394650296
+ksads_2_212_p,Symptom - Increased Distractibility ξPast ξ,255.0,5.590879193159394
+ksads_2_206_p,Symptom - Increased Energy Past,121.0,2.652926989695242
+ksads_2_210_p,Symptom - Increased Distractibility Present,3.0,0.065775049331287
+ksads_2_203_p,Symptom - Increased Goal Directed Activity Present,19.0,0.4165753124314843
+ksads_2_204_p,Symptom - Increased Goal Directed Activity Past ξ,228.0,4.998903749177812
+ksads_2_205_p,Symptom - Increased Energy Present,11.0,0.24117518088138568
+ksads_2_221_p,Symptom - Lasting at least 4 days Present,131.0,2.8721771541328653
+ksads_2_222_p,Symptom - Lasting at least 4 days Past,773.0,16.94803771102828
+ksads_2_219_p,Symptom - Lasting at least one week Present,102.0,2.236351677263758
+ksads_2_220_p,Symptom - Lasting at least one week Past,686.0,15.040561280420961
+ksads_2_192_p,Symptom - Manic Irritability Present,0.0,0.0
+ksads_2_194_p,Symptom - Manic Irritability Past,11.0,0.24117518088138568
+ksads_3_848_p,Diagnosis - Disruptive Mood Dysregulation Disorder (DMDD) Current (F34.8),3.0,0.065775049331287
+ksads_3_228_p,Symptom - No 3 month period without symptoms,2721.0,59.65796974347731
+ksads_3_227_p,Symptom - Present at least 12 months,184.0,4.034203025652269
+ksads_3_229_p,Symptom - Temper/irritability present in at least 2 settings,85.0,1.8636263977197982
+ksads_3_226_p,Symptom - Temper outbursts occur 3 or more times per week,170.0,3.7272527954395964
+ksads_4_851_p,Diagnosis - Unspecified Schizophrenia Spectrum and Other Psychotic Disorder F29 (Current),5.0,0.10962508221881166
+ksads_4_852_p,Diagnosis - Unspecified Schizophrenia Spectrum and Other Psychotic Disorder F29 (Past),16.0,0.35080026310019735
+ksads_4_826_p,Diagnosis - Hallucinations (Present),5.0,0.10962508221881166
+ksads_4_827_p,Diagnosis - Hallucinations (Past),21.0,0.46042534531900897
+ksads_4_829_p,Diagnosis - Delusions (Past),49.0,1.0743258057443543
+ksads_4_828_p,Diagnosis - Delusions (Present),9.0,0.19732514799386097
+ksads_4_850_p,Diagnosis - Associated Psychotic Symptoms  Past,32.0,0.7016005262003947
+ksads_4_849_p,Diagnosis - Associated Psychotic Symptoms  Current,38.0,0.8331506248629686
+ksads_4_258_p,Symptom - Associated Psychotic Symptoms Present,19.0,0.4165753124314843
+ksads_4_259_p,Symptom - Associated Psychotic Symptoms Past,32.0,0.7016005262003947
+ksads_4_231_p,Symptom - Auditory Hallucinations Past,74.0,1.6224512168384126
+ksads_4_230_p,Symptom - Auditory Hallucinations Present ξ,35.0,0.7673755755316817
+ksads_4_255_p,Symptom - Delusions associated with drug use Past,82.0,1.7978513483885115
+ksads_4_252_p,Symptom - Delusions associated with possible affective Illness Present,28.0,0.6139004604253453
+ksads_4_253_p,Symptom - Delusions associated with possible affective Illness Past,63.0,1.3812760359570269
+ksads_4_254_p,Symptom - Delusions associated with drug use Present,30.0,0.6577504933128699
+ksads_4_243_p,Symptom - Hallucinations associated with drug use Present,0.0,0.0
+ksads_4_244_p,Symptom - Hallucinations associated with drug use Past,0.0,0.0
+ksads_4_241_p,Symptom - Hallucinations associated with possible affective Illness Present,49.0,1.0743258057443543
+ksads_4_242_p,Symptom - Hallucinations associated with possible affective Illness Past,100.0,2.1925016443762333
+ksads_4_237_p,Symptom - Hallucinations occur frequently Present,6.0,0.131550098662574
+ksads_4_238_p,Symptom - Hallucinations occur frequently Past,35.0,0.7673755755316817
+ksads_4_239_p,Symptom - Hallucinations do not only occur when falling asleep Present,43.0,0.9427757070817803
+ksads_4_240_p,Symptom - Hallucinations do not only occur when falling asleep Past,82.0,1.7978513483885115
+ksads_4_257_p,Symptom - Impairment associated with delusions Past,39.0,0.8550756413067309
+ksads_4_256_p,Symptom - Impairment associated with delusions Present,10.0,0.21925016443762332
+ksads_4_247_p,Symptom - Impairment in functioning due to delusions Present,10.0,0.21925016443762332
+ksads_4_245_p,Symptom - Impairment in functioning due to hallucinations Present,17.0,0.3727252795439596
+ksads_4_246_p,Symptom - Impairment in functioning due to hallucinations Past,37.0,0.8112256084192063
+ksads_4_16_p,Symptom - Hallucinations Present,9.0,0.19732514799386097
+ksads_4_17_p,Symptom - Hallucinations Past,144.0,3.1572023679017756
+ksads_4_234_p,Symptom - Location of voices/noises outside of one's head Present,86.0,1.8855514141635605
+ksads_4_260_p,Symptom - No three month interval without symptoms Past,23.0,0.5042753782065337
+ksads_4_18_p,Symptom - Persecutory Delusions Past two weeks Present,17.0,0.3727252795439596
+ksads_4_19_p,Symptom - Persecutory Delusions Past,76.0,1.6663012497259373
+ksads_4_236_p,Symptom - OtherHallucinationsAP Present,0.0,0.0
+ksads_4_235_p,Symptom - OtherHallucinationsALTW Present,0.0,0.0
+ksads_4_232_p,Symptom - Other Hallucinations Present,37.0,0.8112256084192063
+ksads_4_233_p,Symptom - Other Hallucinations Past,93.0,2.039026529269897
+ksads_4_249_p,Symptom - Other Delusions Past,16.0,0.35080026310019735
+ksads_4_248_p,Symptom - Other Delusions past two weeks Present,13.0,0.2850252137689103
+ksads_4_250_p,Symptom - Tenacity of belief that delusion is true Present,9.0,0.19732514799386097
+ksads_4_251_p,Symptom - Tenacity of belief that delusion is true Past,49.0,1.0743258057443543
+ksads_5_906_p,Diagnosis - Other Specified Anxiety Disorder (Panic Disorder impairment does not meet full criteria) F41.8,3.0,0.065775049331287
+ksads_5_907_p,Diagnosis - Other Specified Anxiety Disorder PAST (Panic Disorder impairment does not meet full criteria) F41.8,45.0,0.9866257399693049
+ksads_5_857_p,Diagnosis - Panic Disorder (F41.0) PRESENT,1.0,0.021925016443762334
+ksads_5_858_p,Diagnosis - Panic Disorder (F41.0) PAST,12.0,0.263100197325148
+ksads_5_261_p,Symptom - Panic Symptoms Present,24.0,0.526200394650296
+ksads_5_262_p,Symptom - Panic Symptoms Past,96.0,2.104801578601184
+ksads_5_264_p,Symptom - Persistent worry about additional attacks or their consequences Past,58.0,1.2716509537382152
+ksads_5_263_p,Symptom - Persistent worry about additional attacks or their consequences Present,5.0,0.10962508221881166
+ksads_5_20_p,Symptom - Panic Attacks Present,97.0,2.1267265950449463
+ksads_5_21_p,Symptom - Panic Attacks Past,167.0,3.6614777461083095
+ksads_5_265_p,Symptom - Maladaptive change in behavior due to attacks Present,3.0,0.065775049331287
+ksads_5_266_p,Symptom - Maladaptive change in behavior due to attacks Past,32.0,0.7016005262003947
+ksads_5_267_p,Symptom - Duration of worry or maladaptive behavior at least 1 month Present,6.0,0.131550098662574
+ksads_5_268_p,Symptom - Duration of worry or maladaptive behavior at least 1 month Past,46.0,1.0085507564130674
+ksads_5_269_p,Symptom - Attacks not attributable to substance use Present,39.0,0.8550756413067309
+ksads_5_270_p,Symptom - Attacks not attributable to substance use Past,71.0,1.5566761675071257
+ksads_6_908_p,Diagnosis - Other Specified Anxiety Disorder (Agoraphobia impairment does not meet full criteria) F41.8,0.0,0.0
+ksads_6_859_p,Diagnosis - Agoraphobia (F40.00) PRESENT,5.0,0.10962508221881166
+ksads_6_860_p,Diagnosis - Agoraphobia (F40.00) PAST,22.0,0.48235036176277135
+ksads_6_275_p,Symptom - Reason for agoraphobic avoidance Past,24.0,0.526200394650296
+ksads_6_274_p,Symptom - Reason for agoraphobic avoidance Present,2.0,0.04385003288752467
+ksads_6_276_p,Symptom - Impairment in functioning due to Agoraphobia Present,4.0,0.08770006577504934
+ksads_6_278_p,Symptom - Clinically significant distress due to Agoraphobia Present,5.0,0.10962508221881166
+ksads_6_279_p,Symptom - Clinically significant distress due to Agoraphobia Past,26.0,0.5700504275378206
+ksads_6_22_p,Symptom - Agoraphobic of at least 2 situations Present,5.0,0.10962508221881166
+ksads_6_23_p,Symptom - Agoraphobic of at least 2 situations Past,31.0,0.6796755097566323
+ksads_6_277_p,Symptom - Impairment in functioning due to ξAgoraphobia Past,20.0,0.43850032887524665
+ksads_6_272_p,Symptom - Excessive avoidance of agoraphobic situations Present,5.0,0.10962508221881166
+ksads_6_273_p,Symptom - Excessive avoidance of agoraphobic situations Past,23.0,0.5042753782065337
+ksads_7_861_p,Diagnosis - Separation Anxiety Disorder (F93.00) PRESENT,14.0,0.30695023021267265
+ksads_7_909_p,Diagnosis - Other Specified Anxiety Disorder (Separation Anxiety Disorder impairment does not meet full criteria) F41.8,17.0,0.3727252795439596
+ksads_7_910_p,Diagnosis - Other Specified Anxiety Disorder (Separation Anxiety Disorder impairment does not meet full criteria) PAST F41.8,264.0,5.788204341153256
+ksads_7_862_p,Diagnosis - Separation Anxiety Disorder (F93.00) PAST,469.0,10.282832712124534
+ksads_7_300_p,Symptom - Separation anxiety (past) duration was at least 2 weeks,1022.0,22.407366805525104
+ksads_7_27_p,Symptom - School Reluctance/Refusal Past,829.0,18.175838631878975
+ksads_7_26_p,Symptom - School Reluctance/Refusal Present,50.0,1.0962508221881166
+ksads_7_288_p,Symptom - Refusal to sleep without attachment figure near ξPast,528.0,11.576408682306512
+ksads_7_287_p,Symptom - Refusal to sleep without attachment figure near Present,19.0,0.4165753124314843
+ksads_7_291_p,Symptom - Physical symptoms when separated from attachment figure Present,3.0,0.065775049331287
+ksads_7_292_p,Symptom - Physical symptoms when separated from attachment figure ξPast,264.0,5.788204341153256
+ksads_7_293_p,Symptom - Impairment in functioning due to separation anxiety Present,29.0,0.6358254768691076
+ksads_7_294_p,Symptom - Impairment in functioning due to separation anxiety Past,536.0,11.751808813856611
+ksads_7_289_p,Symptom - Nightmares about separation themes Present,20.0,0.43850032887524665
+ksads_7_290_p,Symptom - Nightmares about separation themes Past,205.0,4.494628370971278
+ksads_7_296_p,Symptom - Clinically significant distress due to separation anxiety Past,1051.0,23.043192282394212
+ksads_7_295_p,Symptom - Clinically significant distress due to separation anxiety Present,44.0,0.9647007235255427
+ksads_7_24_p,Symptom - Distress upon separation from home/attachment figures Present,8.0,0.17540013155009868
+ksads_7_25_p,Symptom - Distress upon separation from home/attachment figures Past,886.0,19.425564569173424
+ksads_7_281_p,Symptom - Fears calamitous event that will cause separation Present,4.0,0.08770006577504934
+ksads_7_282_p,Symptom - Fears calamitous event that will cause separation Past,165.0,3.617627713220785
+ksads_7_285_p,Symptom - Fear of being alone without attachment figure Present,10.0,0.21925016443762332
+ksads_7_286_p,Symptom - Fear of being alone without attachment figure Past,363.0,7.958780969085727
+ksads_7_297_p,Symptom - Separation anxiety duration is at least 4 weeks Present,45.0,0.9866257399693049
+ksads_7_299_p,Symptom - Separation anxiety duration is at least 2 weeks,48.0,1.052400789300592
+ksads_7_298_p,Symptom - Separation anxiety duration was at least 4 weeks Past,902.0,19.776364832273625
+ksads_7_284_p,Symptom - Worry about harm befalling attachment figure Past,258.0,5.656654242490681
+ksads_7_283_p,Symptom - Worry about harm befalling attachment figure Present,2.0,0.04385003288752467
+ksads_8_864_p,Diagnosis - Social Anxiety Disorder (F40.10) PAST,233.0,5.108528831396623
+ksads_8_863_p,Diagnosis - Social Anxiety Disorder (F40.10) PRESENT,35.0,0.7673755755316817
+ksads_8_912_p,Diagnosis - Other Specified Anxiety Disorder (Social Anxiety Disorder impairment does not meet minimum duration) PAST ξF41.8,55.0,1.2058759044069283
+ksads_8_911_p,Diagnosis - Other Specified Anxiety Disorder (Social Anxiety Disorder impairment does not meet minimum duration) F41.8,0.0,0.0
+ksads_8_309_p,Symptom - Impairment in functioning due to social anxiety Present,34.0,0.7454505590879192
+ksads_8_310_p,Symptom - Impairment in functioning due to social anxiety Past,374.0,8.199956149967113
+ksads_8_29_p,Symptom - Fear of Social Situations Present,58.0,1.2716509537382152
+ksads_8_31_p,Symptom - Fear of Social Situations Past,530.0,11.620258715194035
+ksads_8_313_p,Symptom - Duration (at least 6 months) Past,377.0,8.2657311992984
+ksads_8_30_p,Symptom - Duration (at least 6 months) Present,58.0,1.2716509537382152
+ksads_8_312_p,Symptom - Clinically significant distress due to Social Anxiety Past,485.0,10.633632975224732
+ksads_8_311_p,Symptom - Clinically significant distress due to Social Anxiety Present,37.0,0.8112256084192063
+ksads_8_308_p,Symptom - Social fear is excessive given threat or sociocultural context ξPast,367.0,8.046481034860777
+ksads_8_304_p,Symptom - Social situations avoided or endured with distress Past,372.0,8.156106117079588
+ksads_8_307_p,Symptom - Social fear is excessive given threat or sociocultural context Present,35.0,0.7673755755316817
+ksads_8_302_p,Symptom - Social situations invariably provoke ξanxiety Past,519.0,11.37908353431265
+ksads_8_303_p,Symptom - Social situations avoided or endured with distress Present,38.0,0.8331506248629686
+ksads_8_301_p,Symptom - Social situations invariably provoke anxiety Present,58.0,1.2716509537382152
+ksads_9_868_p,Diagnosis - Specific Phobia ξPAST (F40.2XX),1085.0,23.78864284148213
+ksads_9_867_p,Diagnosis - Specific Phobia ξPRESENT (F40.2XX),360.0,7.893005919754439
+ksads_9_37_p,Symptom - Active avoidance of phobic object Present,418.0,9.164656873492655
+ksads_9_38_p,Symptom - Active avoidance of phobic object Past,1500.0,32.8875246656435
+ksads_9_41_p,Symptom - Distress due to fear or avoidance of phobic object Present,394.0,8.63845647884236
+ksads_9_42_p,Symptom - Distress due to fear or avoidance of phobic object Past,1444.0,31.659723744792807
+ksads_9_43_p,Symptom - Duration of phobia at least 6 months Present,394.0,8.63845647884236
+ksads_9_44_p,Symptom - Duration of past phobia at least 6 months Present,1447.0,31.725498794124096
+ksads_9_40_p,Symptom - Impairment due to fear or avoidance of phobic object Past,491.0,10.765183073887306
+ksads_9_39_p,Symptom - Impairment due to fear or avoidance of phobic object Present,177.0,3.8807279105459327
+ksads_9_34_p,Symptom - Marked fear of phobic object Present,2352.0,51.56763867572901
+ksads_9_35_p,Symptom - Marked fear of phobic object Past,1718.0,37.667178250383685
+ksads_9_36_p,Symptom - PhobicObjectSpecialCase Past,1718.0,37.667178250383685
+ksads_10_914_p,Diagnosis - Other Specified Anxiety Disorder (Generalized Anxiety Disorder impairment does not meet minimum duration) PAST ξF41.8,119.0,2.6090769568077175
+ksads_10_913_p,Diagnosis - Other Specified Anxiety Disorder (Generalized Anxiety Disorder impairment does not meet minimum duration) F41.8,4.0,0.08770006577504934
+ksads_10_869_p,Diagnosis - Generalized Anxiety Disorder Present (F41.1),59.0,1.2935759701819776
+ksads_10_870_p,Diagnosis - Generalized Anxiety Disorder Past (F41.1),223.0,4.889278666959
+ksads_10_45_p,Symptom - Excessive worries more days than not Present,134.0,2.9379522034641528
+ksads_10_46_p,Symptom - Excessive worries more days than not Past,627.0,13.746985310238982
+ksads_10_320_p,Symptom - Excessive worries across breadth of domains Present,119.0,2.6090769568077175
+ksads_10_321_p,Symptom - Excessive worries across breadth of domains Past,455.0,9.975882481911862
+ksads_10_325_p,Symptom - Difficulty controlling worries Past,469.0,10.282832712124534
+ksads_10_324_p,Symptom - Difficulty controlling worries Present,90.0,1.9732514799386098
+ksads_10_329_p,Symptom - Clinically significant distress due to worries Past,597.0,13.089234816926112
+ksads_10_328_p,Symptom - Clinically significant distress due to worries Present,129.0,2.8283271212453407
+ksads_10_326_p,Symptom - Impairment in functioning due to worries Present,100.0,2.1925016443762333
+ksads_10_327_p,Symptom - Impairment in functioning due to worries Past,429.0,9.405832054374041
+ksads_10_323_p,Symptom - Worry associated with defined symptom(s) Past,576.0,12.628809471607102
+ksads_10_47_p,Symptom - Worrying has lasted at least 6 months Present,125.0,2.7406270554702914
+ksads_10_330_p,Symptom - Worrying has lasted at least 6 months Past,357.0,7.827230870423153
+ksads_10_322_p,Symptom - Worry associated with defined symptom(s) Present,93.0,2.039026529269897
+ksads_11_917_p,Diagnosis - Obsessive-Compulsive Disorder Present (F42),319.0,6.994080245560184
+ksads_11_918_p,Diagnosis - Obsessive-Compulsive Disorder Past (F42),209.0,4.5823284367463275
+ksads_11_919_p,Diagnosis - Other Specified Obsessive-Compulsive and Related Disorder present  does not meet full criteria (F42),51.0,1.118175838631879
+ksads_11_920_p,Diagnosis - Other Specified Obsessive-Compulsive and Related Disorder past does not meet full criteria (F42),66.0,1.447051085288314
+ksads_11_343_p,Symptom - Purpose of compulsions to prevent/reduce anxiety or prevent dreaded event Present,333.0,7.3010304757728575
+ksads_11_344_p,Symptom - Purpose of compulsions to prevent/reduce anxiety or prevent dreaded event Past,174.0,3.814952861214646
+ksads_11_331_p,Symptom - Obsessive thoughts experienced as Intrusive/unwanted Present,168.0,3.6834027625520718
+ksads_11_332_p,Symptom - Obsessive thoughts experienced as Intrusive/unwanted Past,130.0,2.850252137689103
+ksads_11_48_p,Symptom - Obsessions Present,402.0,8.813856610392458
+ksads_11_49_p,Symptom - Obsessions Past,394.0,8.63845647884236
+ksads_11_335_p,Symptom - Obsessions time consuming Present,63.0,1.3812760359570269
+ksads_11_336_p,Symptom - Obsessions time consuming Past,98.0,2.1486516114887086
+ksads_11_342_p,Symptom - Compulsions time consuming Past,81.0,1.775926331944749
+ksads_11_51_p,Symptom - Compulsions Past,174.0,3.814952861214646
+ksads_11_341_p,Symptom - Compulsions time consuming Present,85.0,1.8636263977197982
+ksads_11_50_p,Symptom - Compulsions Present,333.0,7.3010304757728575
+ksads_11_339_p,Symptom - Clinically significant distress due to obsessions Present,284.0,6.226704670028503
+ksads_11_340_p,Symptom - Clinically significant distress due to obsessions Past,227.0,4.97697873273405
+ksads_11_347_p,Symptom - Clinically significant distress due to compulsions Present,173.0,3.7930278447708834
+ksads_11_348_p,Symptom - Clinically significant distress due to compulsions Past,105.0,2.302126726595045
+ksads_11_333_p,Symptom - Attempts to suppress or neutralize thoughts Present,219.0,4.801578601183951
+ksads_11_334_p,Symptom - Attempts to suppress or neutralize thoughts Past,151.0,3.310677483008112
+ksads_11_346_p,Symptom - Impairment in functioning due to compulsions Past,88.0,1.9294014470510854
+ksads_11_345_p,Symptom - Impairment in functioning due to compulsions Present,136.0,2.981802236351677
+ksads_11_337_p,Symptom - Impairment in functioning due to obsessions Present,186.0,4.078053058539794
+ksads_11_338_p,Symptom - Impairment in functioning due to obsessions Past,151.0,3.310677483008112
+ksads_12_928_p,Diagnosis - Encopresis Past (F98.1),0.0,0.0
+ksads_12_927_p,Diagnosis - Encopresis Present (F98.1),0.0,0.0
+ksads_12_925_p,Diagnosis - Enuresis Present (F98.0),0.0,0.0
+ksads_12_926_p,Diagnosis - Enuresis Past (F98.0),0.0,0.0
+ksads_12_53_p,Symptom - Enuresis Past,0.0,0.0
+ksads_12_52_p,Symptom - Enuresis Present,0.0,0.0
+ksads_12_56_p,Symptom - Enuresis causes significant distress Present,0.0,0.0
+ksads_12_57_p,Symptom - Enuresis causes significant distress Past,0.0,0.0
+ksads_12_60_p,Symptom - Encopresis Present,0.0,0.0
+ksads_12_54_p,Symptom - Enuresis at least twice a week for 3 months Present,0.0,0.0
+ksads_12_55_p,Symptom - Enuresis at least twice a week for 3 months Past,0.0,0.0
+ksads_12_61_p,Symptom - Encopresis Past,0.0,0.0
+ksads_12_64_p,Symptom - Encopresis not due to medical illness Present,0.0,0.0
+ksads_12_65_p,Symptom - Encopresis not due to medical illness Past,0.0,0.0
+ksads_12_62_p,Symptom - Encopresis at least once a month for ξ3 months Present,0.0,0.0
+ksads_12_63_p,Symptom - Encopresis at least once a month for ξ3 months Past,0.0,0.0
+ksads_12_58_p,Symptom - Impairment due to Enuresis Present,0.0,0.0
+ksads_12_59_p,Symptom - Impairment due to Enuresis Past,0.0,0.0
+ksads_13_939_p,Diagnosis - Binge-Eating Disorder (F50.8) current in partial remission,0.0,0.0
+ksads_13_938_p,Diagnosis - Binge-Eating Disorder (F50.8) CURRENT,24.0,0.526200394650296
+ksads_13_929_p,Diagnosis - Anorexia Nervosa (F50.02) ξBinge eating/purging subtype PRESENT,0.0,0.0
+ksads_13_934_p,Diagnosis - Anorexia Nervosa (F50.01) Restricting subtypePAST,1.0,0.021925016443762334
+ksads_13_933_p,Diagnosis - Anorexia Nervosa (F50.01) ξRestricting subtype PRESENT IN PARTIAL REMISSION,4.0,0.08770006577504934
+ksads_13_932_p,Diagnosis - Anorexia Nervosa (F50.01) ξRestricting subtype PRESENT,0.0,0.0
+ksads_13_931_p,Diagnosis - Anorexia Nervosa (F50.02) Binge eating/purging subtype PAST,0.0,0.0
+ksads_13_930_p,Diagnosis - Anorexia Nervosa (F50.02) ξBinge eating/purging subtype PRESENT IN PARTIAL REMISSION,0.0,0.0
+ksads_13_936_p,Diagnosis - Bulimia Nervosa (F50.2) PAST,0.0,0.0
+ksads_13_935_p,Diagnosis - Bulimia Nervosa (F50.2) PRESENT,0.0,0.0
+ksads_13_937_p,Diagnosis - Bulimia Nervosa Partial Remission Present,0.0,0.0
+ksads_13_940_p,Diagnosis - Binge-Eating Disorder (F50.8) PAST,14.0,0.30695023021267265
+ksads_13_943_p,Diagnosis - Other Specified Feeding or Eating Disorder Bulimia Nervosa PAST does not meet full criteria (F50.8),0.0,0.0
+ksads_13_942_p,Diagnosis - Other Specified Feeding or Eating Disorder Bulimia Nervosa current does not meet full criteria (F50.8),1.0,0.021925016443762334
+ksads_13_944_p,Diagnosis - Other Specified Feeding or Eating Disorder Binge Eating Disorder present does not meet full criteria (F50.8),9.0,0.19732514799386097
+ksads_13_941_p,Diagnosis - Other Specified Feeding or Eating Disorder Anorexia Nervosa current does not meet full criteria (F50.8),393.0,8.616531462398596
+ksads_13_469_p,Symptom - Self-worth tied to weight Present,42.0,0.9208506906380179
+ksads_13_476_p,Symptom - Self-worth tied to weight Past,88.0,1.9294014470510854
+ksads_13_470_p,Symptom - Inappropriate compensatory behaviors to prevent weight gain Present,52.0,1.1401008550756413
+ksads_13_477_p,Symptom - Inappropriate compensatory behaviors to prevent weight gain Past,18.0,0.39465029598772194
+ksads_13_473_p,Symptom - CharacteristicsofBinge Eating Present,68.0,1.4909011181758385
+ksads_13_478_p,Symptom - Compensatory behaviors occurred at least 1x/week for 3 months Past,15.0,0.32887524665643497
+ksads_13_471_p,Symptom - Compensatory behaviors occur at least 1x/week for 3 months Present,32.0,0.7016005262003947
+ksads_13_474_p,Symptom - Binge-eating associated with 3 or more associated symptoms Past,26.0,0.5700504275378206
+ksads_13_74_p,Symptom - Binge Eating Present,183.0,4.012278009208507
+ksads_13_75_p,Symptom - Binge Eating Past,46.0,1.0085507564130674
+ksads_13_472_p,Symptom - Binge eating occur at least 1x/week for 3 months Present,69.0,1.512826134619601
+ksads_13_479_p,Symptom - Binge eating occur at least 1x/week for 3 months Past,33.0,0.723525542644157
+ksads_13_475_p,Symptom - Distress associated with binge eating Present,80.0,1.7540013155009866
+ksads_13_480_p,Symptom - Distress associated with binge eating Past,29.0,0.6358254768691076
+ksads_13_68_p,Symptom - Emaciation Present,401.0,8.791931593948696
+ksads_13_69_p,Symptom - Emaciation Past,19.0,0.4165753124314843
+ksads_13_66_p,Symptom - Fear of becoming obese Present,20.0,0.43850032887524665
+ksads_13_67_p,Symptom - Fear of becoming obese Past,263.0,5.766279324709494
+ksads_13_70_p,Symptom - Weight control vomiting Present,5.0,0.10962508221881166
+ksads_13_71_p,Symptom - Weight control vomiting Past,3.0,0.065775049331287
+ksads_13_72_p,Symptom - Weight control other (laxatives exercise dieting pills) Present ξ,70.0,1.5347511510633634
+ksads_13_73_p,Symptom - Weight control other (laxatives exercise dieting pills) Pastξ,26.0,0.5700504275378206
+ksads_14_856_p,Diagnosis - Unspecified Attention-Deficit/Hyperactivity Disorder (F90.9),46.0,1.0085507564130674
+ksads_14_855_p,Diagnosis - Attention-Deficit/Hyperactivity Disorder IN PARTIAL REMISSION,79.0,1.7320762990572243
+ksads_14_853_p,Diagnosis - Attention-Deficit/Hyperactivity Disorder Present,450.0,9.86625739969305
+ksads_14_854_p,Diagnosis - Attention-Deficit/Hyperactivity Disorder Past,459.0,10.063582547686911
+ksads_14_398_p,Symptom - Avoids tasks requiring attention Present,468.0,10.260907695680773
+ksads_14_414_p,Symptom - Avoids tasks requiring attention Past,907.0,19.885989914492434
+ksads_14_403_p,Symptom - Acts like driven by a motor Present,329.0,7.213330409997807
+ksads_14_419_p,Symptom - Acts like driven by a motor Past,595.0,13.045384784038589
+ksads_14_405_p,Symptom - Blurts out answers Present,244.0,5.34970401227801
+ksads_14_421_p,Symptom - Blurts out answers Past,523.0,11.4667836000877
+ksads_14_406_p,Symptom - Difficulty waiting turn Present,284.0,6.226704670028503
+ksads_14_422_p,Symptom - Difficulty waiting turn Past,647.0,14.185485639114228
+ksads_14_76_p,Symptom - Difficulty sustaining attention Present,473.0,10.370532777899584
+ksads_14_413_p,Symptom - Difficulty organizing tasks Past,900.0,19.7325147993861
+ksads_14_396_p,Symptom - Difficulty following Instructions Present,495.0,10.852883139662355
+ksads_14_420_p,Symptom - Difficulty playing quietly Past,742.0,16.268362201271653
+ksads_14_397_p,Symptom - Difficulty organizing tasks Present,464.0,10.173207629905722
+ksads_14_87_p,Symptom - Difficulty remaining seated for more than one school year Past,691.0,15.150186362639772
+ksads_14_404_p,Symptom - Difficulty playing quietly Present,329.0,7.213330409997807
+ksads_14_86_p,Symptom - Difficulty remaining seated Past,691.0,15.150186362639772
+ksads_14_85_p,Symptom - Difficulty remaining seated since elementary school ξPresent ξ,289.0,6.336329752247314
+ksads_14_78_p,Symptom - Difficulty sustaining attention Past,879.0,19.27208945406709
+ksads_14_77_p,Symptom - Difficulty sustaining attention since elementary school Present,461.0,10.107432580574436
+ksads_14_79_p,Symptom - Difficulty sustaining attention for more than one school year Past,879.0,19.27208945406709
+ksads_14_84_p,Symptom - Difficulty remaining seated Present,289.0,6.336329752247314
+ksads_14_412_p,Symptom - Difficulty following Instructions Past,909.0,19.92983994737996
+ksads_14_401_p,Symptom - Fidgets Present,427.0,9.361982021486517
+ksads_14_417_p,Symptom - Fidgets Past,860.0,18.855514141635606
+ksads_14_80_p,Symptom - Easily distracted Present,475.0,10.414382810787108
+ksads_14_82_p,Symptom - Easily distracted Past,968.0,21.223415917561937
+ksads_14_81_p,Symptom - Easily distracted since elementary school Present,475.0,10.414382810787108
+ksads_14_83_p,Symptom - Easily distracted for more than one school year Past,968.0,21.223415917561937
+ksads_14_400_p,Symptom - Forgetful in daily activities Present,473.0,10.370532777899584
+ksads_14_416_p,Symptom - Forgetful in daily activities Past,932.0,20.434115325586493
+ksads_14_88_p,Symptom - Impulsivity Present,167.0,3.6614777461083095
+ksads_14_89_p,Symptom - Impulsivity Past,1580.0,34.64152598114448
+ksads_14_90_p,Symptom - Impulsivity for more than one school year Past,748.0,16.399912299934226
+ksads_14_399_p,Symptom - Often loses things Present,357.0,7.827230870423153
+ksads_14_415_p,Symptom - Often loses things Past,764.0,16.750712563034423
+ksads_14_408_p,Symptom - Often talks excessively Present,345.0,7.5641306730980045
+ksads_14_424_p,Symptom - Often talks excessively Past,675.0,14.799386099539575
+ksads_14_394_p,Symptom - Often makes careless mistakes Present,383.0,8.397281297960973
+ksads_14_410_p,Symptom - Often makes careless mistakes Past,665.0,14.580135935101952
+ksads_14_395_p,Symptom - Often doesnÈt seem to listen when spoken to Present,506.0,11.09405832054374
+ksads_14_411_p,Symptom - Often doesnÈt seem to listen when spoken to Past,985.0,21.596141197105897
+ksads_14_407_p,Symptom - Often Interrupts or intrudes on others Present,478.0,10.480157860118396
+ksads_14_423_p,Symptom - Often Interrupts or intrudes on others Past,858.0,18.811664108748083
+ksads_14_402_p,Symptom - Runs or climbs excessively Present,258.0,5.656654242490681
+ksads_14_418_p,Symptom - Runs or climbs excessively Past,576.0,12.628809471607102
+ksads_14_409_p,Symptom - Symptoms interfere with social academic or occupational functioning Present,582.0,12.760359570269678
+ksads_14_425_p,Symptom - Symptoms interfere with social academic or occupational functioning Past,1068.0,23.415917561938173
+ksads_14_429_p,Symptom - Several symptoms present prior to age 12 years Present,717.0,15.72023679017759
+ksads_14_430_p,Symptom - Several symptoms present prior to age 12 years Past,3043.0,66.71782503836879
+ksads_15_901_p,Diagnosis - Oppositional Defiant Disorder Present F91.3,291.0,6.380179785134839
+ksads_15_902_p,Diagnosis - Oppositional Defiant Disorder Past F91.3,473.0,10.370532777899584
+ksads_15_95_p,Symptom - Often disobeys rules/requests Present,240.0,5.2620039465029596
+ksads_15_436_p,Symptom - Often blames others for own mistakes Present,447.0,9.800482350361763
+ksads_15_442_p,Symptom - Often deliberatively annoys people Past,967.0,21.201490901118174
+ksads_15_96_p,Symptom - Often disobeys rules/requests Past,1194.0,26.178469633852224
+ksads_15_435_p,Symptom - Often deliberatively annoys people Present,265.0,5.810129357597018
+ksads_15_440_p,Symptom - Often angry or resentful Past,709.0,15.544836658627496
+ksads_15_446_p,Symptom - ODD Six month free Past,0.0,0.0
+ksads_15_94_p,Symptom - Often argues with adults/authority Past,1269.0,27.8228458671344
+ksads_15_433_p,Symptom - Often angry or resentful Present,141.0,3.0914273185704886
+ksads_15_443_p,Symptom - Often blames others for own mistakes Past,1030.0,22.582766937075203
+ksads_15_93_p,Symptom - Often argues with adults/authority Present,443.0,9.712782284586712
+ksads_15_432_p,Symptom - Often touchy or easily annoyed Present,203.0,4.450778338083754
+ksads_15_439_p,Symptom - Often touchy or easily annoyed Past,991.0,21.727691295768473
+ksads_15_91_p,Symptom - Often loses temper Present,0.0,0.0
+ksads_15_92_p,Symptom - Often loses temper Past,0.0,0.0
+ksads_15_445_p,Symptom - Duration of at least 6 months Past,971.0,21.289190966893226
+ksads_15_438_p,Symptom - Duration of at least 6 months Present,479.0,10.502082876562158
+ksads_15_97_p,"Duration (at least 6 months) ODD, Past",954.0,20.916465687349266
+ksads_15_437_p,Symptom - Causes problems in functioning or distress in self or others Present,462.0,10.129357597018197
+ksads_15_444_p,Symptom - Causes problems in functioning or distress in self or others Past,1271.0,27.866695900021927
+ksads_15_431_p,Symptom - Alcohol Use Past,0.0,0.0
+ksads_15_441_p,Symptom - Spiteful or vindictive Past,590.0,12.935759701819777
+ksads_15_434_p,Symptom - Spiteful or vindictive Present,338.0,7.410655557991669
+ksads_16_900_p,Diagnosis - Conduct Disorder past adolescent onset (F91.2),4.0,0.08770006577504934
+ksads_16_897_p,Diagnosis - Conduct Disorder present childhood onset (F91.1),100.0,2.1925016443762333
+ksads_16_899_p,Diagnosis - Conduct Disorder past childhood onset (F91.1),42.0,0.9208506906380179
+ksads_16_898_p,Diagnosis - Conduct Disorder present adolescent onset (F91.2),8.0,0.17540013155009868
+ksads_16_450_p,Symptom - Breaking and entering Past,3.0,0.065775049331287
+ksads_16_449_p,Symptom - Breaking and entering Present,0.0,0.0
+ksads_16_463_p,Symptom - Forced someone into sexual activity Present,4.0,0.08770006577504934
+ksads_16_464_p,Symptom - Forced someone into sexual activity Past,14.0,0.30695023021267265
+ksads_16_453_p,Symptom - Fire setting Present,9.0,0.19732514799386097
+ksads_16_454_p,Symptom - Fire setting Past,34.0,0.7454505590879192
+ksads_16_461_p,Symptom - Has been physically cruel to people Present,202.0,4.428853321639991
+ksads_16_462_p,Symptom - Has been physically cruel to people Past,220.0,4.823503617627713
+ksads_16_465_p,Symptom - Has been physically cruel to animals Present,11.0,0.24117518088138568
+ksads_16_466_p,Symptom - Has been physically cruel to animals Past,38.0,0.8331506248629686
+ksads_16_98_p,Symptom - Often Lies Present,177.0,3.8807279105459327
+ksads_16_99_p,Symptom - Often Lies Past,630.0,13.81276035957027
+ksads_16_104_p,Symptom - Often bullies others Present,137.0,3.0037272527954397
+ksads_16_105_p,Symptom - Often bullies others Past,173.0,3.7930278447708834
+ksads_16_102_p,Symptom - Often initiates physical fights Present,77.0,1.6882262661696998
+ksads_16_103_p,Symptom - Often initiates physical fights Past,27.0,0.591975443981583
+ksads_16_458_p,Symptom - Ran away overnight Past,9.0,0.19732514799386097
+ksads_16_457_p,Symptom - Ran away overnight Present,0.0,0.0
+ksads_16_456_p,Symptom - Stays out late at night despite parental prohibition ξPast ξ,14.0,0.30695023021267265
+ksads_16_455_p,Symptom - Stays out late at night despite parental prohibition Present,20.0,0.43850032887524665
+ksads_16_452_p,Symptom - Stealing while confronting victim Past,3.0,0.065775049331287
+ksads_16_107_p,Symptom - Stealing Past,64.0,1.4032010524007894
+ksads_16_451_p,Symptom - Stealing while confronting victim Present,3.0,0.065775049331287
+ksads_16_106_p,Symptom - Stealing Present,15.0,0.32887524665643497
+ksads_16_100_p,Symptom - Truancy Present,4.0,0.08770006577504934
+ksads_16_101_p,Symptom - Truancy Past,10.0,0.21925016443762332
+ksads_16_447_p,Symptom - Vandalism Present,50.0,1.0962508221881166
+ksads_16_448_p,Symptom - Vandalism Past,88.0,1.9294014470510854
+ksads_16_460_p,Symptom - Use of a weapon that can cause serious harm Past,36.0,0.7893005919754439
+ksads_16_459_p,Symptom - Use of a weapon that can cause serious harm Present,17.0,0.3727252795439596
+ksads_17_905_p,Diagnosis - Unspecified Tic Disorder past (F95.9),0.0,0.0
+ksads_17_904_p,Diagnosis - Unspecified Tic Disorder present ξ(F95.9),0.0,0.0
+ksads_17_110_p,Symptom - Phonic Tics Present,0.0,0.0
+ksads_17_111_p,Symptom - Phonic Tics Past,0.0,0.0
+ksads_17_109_p,Symptom - Motor Tics Past,0.0,0.0
+ksads_17_108_p,Symptom - Motor Tics Present,0.0,0.0
+ksads_18_903_p,Diagnosis - Other Specified Neurodevelopmental Disorder Autism Spectrum Disorder full criteria not assessed (F88.0),1244.0,27.274720456040342
+ksads_18_116_p,Symptom - Poor Eye Contact Present,152.0,3.3326024994518746
+ksads_18_117_p,Symptom - Poor Eye Contact Past,577.0,12.650734488050865
+ksads_18_112_p,Symptom - Unusual body movements Present,203.0,4.450778338083754
+ksads_18_113_p,Symptom - Unusual body movements Pastξ,174.0,3.814952861214646
+ksads_18_115_p,Symptom - Strict Routines Past,372.0,8.156106117079588
+ksads_18_114_p,Symptom - Strict Routines Present,254.0,5.568954176715633
+ksads_19_895_p,Diagnosis - Unspecified Alcohol-Related Disorder present (F10.99),0.0,0.0
+ksads_19_896_p,Diagnosis - Unspecified Alcohol-Related Disorder past (F10.99),0.0,0.0
+ksads_19_891_p,Diagnosis - Alcohol Use Disorder Present,0.0,0.0
+ksads_19_892_p,Diagnosis - Alcohol Use Disorder Past,0.0,0.0
+ksads_19_500_p,Symptom - Alcohol Tolerance Present,0.0,0.0
+ksads_19_499_p,Symptom - Alcohol Withdrawal Present,0.0,0.0
+ksads_19_504_p,Symptom - Alcohol Withdrawal Past,0.0,0.0
+ksads_19_508_p,Symptom - Alcohol Abstinence Present,0.0,0.0
+ksads_19_505_p,Symptom - Alcohol Tolerance Past,0.0,0.0
+ksads_19_494_p,Symptom - Craving or a strong desire to use alcohol Past,0.0,0.0
+ksads_19_493_p,Symptom - Craving or a strong desire to use alcohol Present,0.0,0.0
+ksads_19_481_p,Symptom - Drinks More than Planned Present,0.0,0.0
+ksads_19_124_p,Symptom - Frequency of drinks Past,7.0,0.15347511510633632
+ksads_19_501_p,Symptom - Great deal of time obtaining using or recovering from alcohol Present,0.0,0.0
+ksads_19_506_p,Symptom - Great deal of time obtaining using or recovering from alcohol Past,0.0,0.0
+ksads_19_483_p,Symptom - Failure to fulfill major role responsibilities due to alcohol use Present,0.0,0.0
+ksads_19_484_p,Symptom - Failure to fulfill major role responsibilities due to alcohol use Past,0.0,0.0
+ksads_19_491_p,Symptom - Recurrent psychological problems due to alcohol Present,0.0,0.0
+ksads_19_492_p,Symptom - Recurrent psychological problems due to alcohol Past,0.0,0.0
+ksads_19_489_p,Symptom - Recurrent physical problems due to alcohol Present,0.0,0.0
+ksads_19_487_p,Symptom - Recurrent alcohol use in situations that are physically hazardous Past,0.0,0.0
+ksads_19_490_p,Symptom - Recurrent physical problems due to alcohol Past,0.0,0.0
+ksads_19_485_p,Symptom - Recurrent alcohol use in situations that are physically hazardous Present,0.0,0.0
+ksads_19_502_p,Symptom - Persistent desire to reduce alcohol use Past,0.0,0.0
+ksads_19_497_p,Symptom - Persistent desire to reduce alcohol use Present,0.0,0.0
+ksads_19_122_p,Symptom - Negative impact interpersonal problems alcohol Present,1.0,0.021925016443762334
+ksads_19_123_p,Symptom - Negative impact interpersonal problems alcohol Past,4.0,0.08770006577504934
+ksads_19_495_p,Symptom - Important activities given up or reduced due to alcohol Present,0.0,0.0
+ksads_19_496_p,Symptom - Important activities given up or reduced due to alcohol Past,0.0,0.0
+ksads_19_120_p,Symptom - Often has three or more drinks a day Present,0.0,0.0
+ksads_19_482_p,Symptom - Often drinks more than planned Past,0.0,0.0
+ksads_19_121_p,Symptom - Often has three or more drinks a day Pastξ,7.0,0.15347511510633632
+ksads_19_503_p,Symptom - Unsuccessful efforts to reduce alcohol use Past,0.0,0.0
+ksads_19_498_p,Symptom - Unsuccessful efforts to reduce alcohol use Present,0.0,0.0
+ksads_19_488_p,Symptom - Use of alcohol/intoxicated while driving Past,0.0,0.0
+ksads_19_486_p,Symptom - Use of alcohol/intoxicated while driving Present,0.0,0.0
+ksads_20_893_p,Diagnosis - Unspecified Substance Related Disorder Present (F10.99),8.0,0.17540013155009868
+ksads_20_894_p,Diagnosis - Unspecified Substance Related Disorder Past (F10.99),0.0,0.0
+ksads_20_874_p,Diagnosis - Stimulant Use Disorder Present: Cocaine,0.0,0.0
+ksads_20_883_p,Diagnosis - Stimulant Use Disorder Past: Cocaine,0.0,0.0
+ksads_20_872_p,Diagnosis - Stimulant Use Disorder Present: ξAmphetamine-type substance,0.0,0.0
+ksads_20_881_p,Diagnosis - Stimulant Use Disorder Past: ξAmphetamine-type substance,0.0,0.0
+ksads_20_889_p,Diagnosis - Substance Use Disorder CURRENT,0.0,0.0
+ksads_20_890_p,Diagnosis - Substance Use Disorder PAST,0.0,0.0
+ksads_20_887_p,Diagnosis - Inhalant Use Disorder Past,0.0,0.0
+ksads_20_878_p,Diagnosis - Inhalant Use Disorder Present,0.0,0.0
+ksads_20_877_p,Diagnosis - Phencycllidine (PCP) Use Disorder Present,0.0,0.0
+ksads_20_886_p,Diagnosis - Phencycllidine (PCP) Use Disorder Past,0.0,0.0
+ksads_20_875_p,Diagnosis - Opiod Use Disorder Present,0.0,0.0
+ksads_20_884_p,Diagnosis - Opiod Use Disorder Past,0.0,0.0
+ksads_20_876_p,Diagnosis - Other Hallucinagen Use Disorder Present,0.0,0.0
+ksads_20_885_p,Diagnosis - Other Hallucinagen Use Disorder Past,0.0,0.0
+ksads_20_879_p,Diagnosis - Other Drugs Use Disorder Present,1.0,0.021925016443762334
+ksads_20_888_p,Diagnosis - Other Drugs Use Disorder Past,0.0,0.0
+ksads_20_873_p,Diagnosis - Sedative Hypnotic or Anxiolytic Use Disorder Present,0.0,0.0
+ksads_20_882_p,Diagnosis - Sedative Hypnotic or Anxiolytic Use Disorder Past,0.0,0.0
+ksads_20_880_p,Diagnosis - Cannabis Use Disorder Past,0.0,0.0
+ksads_20_871_p,Diagnosis - Cannabis Use Disorder Present,0.0,0.0
+ksads_20_126_p,Symptom - Drugs tried Present,161.0,3.529927647445735
+ksads_20_680_p,Symptom - Craving or strong desire to use substance (Cannabis) Past,0.0,0.0
+ksads_20_725_p,Symptom - Craving or strong desire to use substance (Cocaine) Past,0.0,0.0
+ksads_20_545_p,Symptom - Craving or strong desire to use substance (Cannabis) Present,0.0,0.0
+ksads_20_755_p,Symptom - Craving or strong desire to use substance (Hallucinogen) Past,0.0,0.0
+ksads_20_590_p,Symptom - Craving or strong desire to use substance (Cocaine) Present,0.0,0.0
+ksads_20_740_p,Symptom - Craving or strong desire to use substance (Opioid) Past,0.0,0.0
+ksads_20_620_p,Symptom - Craving or strong desire to use substance (Hallucinogen) Present,0.0,0.0
+ksads_20_605_p,Symptom - Craving or strong desire to use substance (Opioid) Present,0.0,0.0
+ksads_20_665_p,Symptom - Craving or strong desire to use substance (Other Drugs) Present,0.0,0.0
+ksads_20_710_p,Symptom - Craving or strong desire to use substance (Sedatives) Past,0.0,0.0
+ksads_20_800_p,Symptom - Craving or strong desire to use substance (Other Drugs) Past,0.0,0.0
+ksads_20_785_p,Symptom - Craving or strong desire to use substance (Solvent) Past,0.0,0.0
+ksads_20_575_p,Symptom - Craving or strong desire to use substance (Sedatives) Present,0.0,0.0
+ksads_20_650_p,Symptom - Craving or strong desire to use substance (Solvent) Present,0.0,0.0
+ksads_20_695_p,Symptom - Craving or strong desire to use substance (Stimulants) Past,0.0,0.0
+ksads_20_560_p,Symptom - Craving or strong desire to use substance (Stimulants) Present,0.0,0.0
+ksads_20_521_p,Symptom - Craving or strong desire to use substance Present,0.0,0.0
+ksads_20_770_p,Symptom - Craving or strong desire to use substance (Tobacco) Past,0.0,0.0
+ksads_20_635_p,Symptom - Craving or strong desire to use substance (Tobacco) Present,0.0,0.0
+ksads_20_522_p,Symptom - Craving or strong desire to use substance Past,0.0,0.0
+ksads_20_538_p,Symptom - Failure to fulfill major role responsibilities due to substance use (Cannabis) Present,0.0,0.0
+ksads_20_673_p,Symptom - Failure to fulfill major role responsibilities due to substance use (Cannabis) Past,0.0,0.0
+ksads_20_613_p,Symptom - Failure to fulfill major role responsibilities due to substance use (Hallucinogen) Present,0.0,0.0
+ksads_20_748_p,Symptom - Failure to fulfill major role responsibilities due to substance use (Hallucinogen) Past,0.0,0.0
+ksads_20_583_p,Symptom - Failure to fulfill major role responsibilities due to substance use (Cocaine) Present,0.0,0.0
+ksads_20_718_p,Symptom - Failure to fulfill major role responsibilities due to substance use (Cocaine) Past,0.0,0.0
+ksads_20_598_p,Symptom - Failure to fulfill major role responsibilities due to substance use (Opioid) Present,0.0,0.0
+ksads_20_733_p,Symptom - Failure to fulfill major role responsibilities due to substance use (Opioid) Past,0.0,0.0
+ksads_20_658_p,Symptom - Failure to fulfill major role responsibilities due to substance use (Other Drugs) Present,2.0,0.04385003288752467
+ksads_20_793_p,Symptom - Failure to fulfill major role responsibilities due to substance use (Other Drugs) Past,0.0,0.0
+ksads_20_703_p,Symptom - Failure to fulfill major role responsibilities due to substance use (Sedatives) Past,0.0,0.0
+ksads_20_643_p,Symptom - Failure to fulfill major role responsibilities due to substance use (Solvent) Present,0.0,0.0
+ksads_20_778_p,Symptom - Failure to fulfill major role responsibilities due to substance use (Solvent) Past,0.0,0.0
+ksads_20_568_p,Symptom - Failure to fulfill major role responsibilities due to substance use (Sedatives) Present,0.0,0.0
+ksads_20_553_p,Symptom - Failure to fulfill major role responsibilities due to substance use (Stimulants) Present,7.0,0.15347511510633632
+ksads_20_688_p,Symptom - Failure to fulfill major role responsibilities due to substance use (Stimulants) Past,1.0,0.021925016443762334
+ksads_20_628_p,Symptom - Failure to fulfill major role responsibilities due to substance use (Tobacco) Present,0.0,0.0
+ksads_20_763_p,Symptom - Failure to fulfill major role responsibilities due to substance use (Tobacco) Past,0.0,0.0
+ksads_20_511_p,Symptom - Failure to fulfill major role responsibilities due to substance use Present,8.0,0.17540013155009868
+ksads_20_512_p,Symptom - Failure to fulfill major role responsibilities due to substance use Past,1.0,0.021925016443762334
+ksads_20_551_p,Symptom - Great deal of time obtaining using or recovering from substance use (Cannabis) Present,0.0,0.0
+ksads_20_686_p,Symptom - Great deal of time obtaining using or recovering from substance use (Cannabis) Past,0.0,0.0
+ksads_20_596_p,Symptom - Great deal of time obtaining using or recovering from substance use (Cocaine) Present,0.0,0.0
+ksads_20_731_p,Symptom - Great deal of time obtaining using or recovering from substance use (Cocaine) Past,0.0,0.0
+ksads_20_626_p,Symptom - Great deal of time obtaining using or recovering from substance use (Hallucinogen) Present,0.0,0.0
+ksads_20_761_p,Symptom - Great deal of time obtaining using or recovering from substance use (Hallucinogen) Past,0.0,0.0
+ksads_20_671_p,Symptom - Great deal of time obtaining using or recovering from substance use (Other Drugs) Present,0.0,0.0
+ksads_20_806_p,Symptom - Great deal of time obtaining using or recovering from substance use (Other Drugs) Past,0.0,0.0
+ksads_20_611_p,Symptom - Great deal of time obtaining using or recovering from substance use (Opioid) Present,0.0,0.0
+ksads_20_746_p,Symptom - Great deal of time obtaining using or recovering from substance use (Opioid) Past,0.0,0.0
+ksads_20_129_p,Symptom - FrequencyDrugUse Past,5.0,0.10962508221881166
+ksads_20_128_p,Symptom - FrequencyDrugUseSpecial Present,16.0,0.35080026310019735
+ksads_20_127_p,Symptom - FrequencyDrugUse Present,17.0,0.3727252795439596
+ksads_20_529_p,Symptom - Great deal of time obtaining using or recovering from substance use Present,0.0,0.0
+ksads_20_534_p,Symptom - Great deal of time obtaining using or recovering from substance use Past,0.0,0.0
+ksads_20_641_p,Symptom - Great deal of time obtaining using or recovering from substance use (Tobacco) Present,0.0,0.0
+ksads_20_776_p,Symptom - Great deal of time obtaining using or recovering from substance use (Tobacco) Past,0.0,0.0
+ksads_20_566_p,Symptom - Great deal of time obtaining using or recovering from substance use (Stimulants) Present,0.0,0.0
+ksads_20_701_p,Symptom - Great deal of time obtaining using or recovering from substance use (Stimulants) Past,0.0,0.0
+ksads_20_581_p,Symptom - Great deal of time obtaining using or recovering from substance use (Sedatives) Present,0.0,0.0
+ksads_20_716_p,Symptom - Great deal of time obtaining using or recovering from substance use (Sedatives) Past,0.0,0.0
+ksads_20_656_p,Symptom - Great deal of time obtaining using or recovering from substance use (Solvent) Present,0.0,0.0
+ksads_20_791_p,Symptom - Great deal of time obtaining using or recovering from substance use (Solvent) Past,0.0,0.0
+ksads_20_634_p,Symptom - Psychological problems due to substance use(Tobacco) Present,0.0,0.0
+ksads_20_520_p,Symptom - Psychological problems due to substance use Past,0.0,0.0
+ksads_20_519_p,Symptom - Psychological problems due to substance use Present,0.0,0.0
+ksads_20_589_p,Symptom - Psychological problems due to substance use(Cocaine) Present,0.0,0.0
+ksads_20_544_p,Symptom - Psychological problems due to substance use(Cannabis) Present,0.0,0.0
+ksads_20_604_p,Symptom - Psychological problems due to substance use(Opioid) Present,0.0,0.0
+ksads_20_619_p,Symptom - Psychological problems due to substance use(Hallucinogen) Present,0.0,0.0
+ksads_20_694_p,Symptom - Psychological problems due to substance use(Stimulants) Past,0.0,0.0
+ksads_20_574_p,Symptom - Psychological problems due to substance use(Sedatives) Present,0.0,0.0
+ksads_20_724_p,Symptom - Psychological problems due to substance use (Cocaine) Past,0.0,0.0
+ksads_20_754_p,Symptom - Psychological problems due to substance use (Hallucinogen) Past,0.0,0.0
+ksads_20_739_p,Symptom - Psychological problems due to substance use (Opioid) Past,0.0,0.0
+ksads_20_709_p,Symptom - Psychological problems due to substance use (Sedatives) Past,0.0,0.0
+ksads_20_784_p,Symptom - Psychological problems due to substance use (Solvent) Past,0.0,0.0
+ksads_20_799_p,Symptom - Psychological problems due to substance use (Other Drugs) Past,0.0,0.0
+ksads_20_664_p,Symptom - Psychological problems due to substance use (Other Drugs) Present,0.0,0.0
+ksads_20_649_p,Symptom - Psychological problems due to substance use (Solvent) Present,0.0,0.0
+ksads_20_559_p,Symptom - Psychological problems due to substance use (Stimulants) Present,0.0,0.0
+ksads_20_679_p,Symptom - Psychological problems due to substance use(Cannabis) Past,0.0,0.0
+ksads_20_769_p,Symptom - Psychological problems due to substance use (Tobacco) Past,0.0,0.0
+ksads_20_517_p,Symptom - Physical problems due to substance use Present,0.0,0.0
+ksads_20_518_p,Symptom - Physical problems due to substance use Past,0.0,0.0
+ksads_20_558_p,Symptom - Physical problems due to substance use (Stimulants) Present,0.0,0.0
+ksads_20_693_p,Symptom - Physical problems due to substance use (Stimulants) Past,0.0,0.0
+ksads_20_648_p,Symptom - Physical problems due to substance use (Solvent) Present,0.0,0.0
+ksads_20_783_p,Symptom - Physical problems due to substance use (Solvent) Past,0.0,0.0
+ksads_20_633_p,Symptom - Physical problems due to substance use (Tobacco) Present,0.0,0.0
+ksads_20_768_p,Symptom - Physical problems due to substance use (Tobacco) Past,0.0,0.0
+ksads_20_588_p,Symptom - Physical problems due to substance use (Cocaine) Present,0.0,0.0
+ksads_20_723_p,Symptom - Physical problems due to substance use (Cocaine) Past,0.0,0.0
+ksads_20_618_p,Symptom - Physical problems due to substance use (Hallucinogen) Present,0.0,0.0
+ksads_20_753_p,Symptom - Physical problems due to substance use (Hallucinogen) Past,0.0,0.0
+ksads_20_603_p,Symptom - Physical problems due to substance use (Opioid) Present,0.0,0.0
+ksads_20_738_p,Symptom - Physical problems due to substance use (Opioid) Past,0.0,0.0
+ksads_20_663_p,Symptom - Physical problems due to substance use (Other Drugs) Present,0.0,0.0
+ksads_20_798_p,Symptom - Physical problems due to substance use (Other Drugs) Past,0.0,0.0
+ksads_20_573_p,Symptom - Physical problems due to substance use (Sedatives) Present,0.0,0.0
+ksads_20_708_p,Symptom - Physical problems due to substance use (Sedatives) Past,0.0,0.0
+ksads_20_509_p,Symptom - Often used more of substance than planned Present,0.0,0.0
+ksads_20_510_p,Symptom - Often used more of substance than planned Past,1.0,0.021925016443762334
+ksads_20_630_p,Symptom - Often used more of substance than planned (Tobacco) Present,0.0,0.0
+ksads_20_765_p,Symptom - Often used more of substance than planned (Tobacco) Past,0.0,0.0
+ksads_20_570_p,Symptom - Often used more of substance than planned (Sedatives) Present,0.0,0.0
+ksads_20_705_p,Symptom - Often used more of substance than planned (Sedatives) Past,0.0,0.0
+ksads_20_555_p,Symptom - Often used more of substance than planned (Stimulants) Present,0.0,0.0
+ksads_20_690_p,Symptom - Often used more of substance than planned (Stimulants) Past,0.0,0.0
+ksads_20_645_p,Symptom - Often used more of substance than planned (Solvent) Present,0.0,0.0
+ksads_20_780_p,Symptom - Often used more of substance than planned (Solvent) Past,0.0,0.0
+ksads_20_543_p,Symptom - Physical problems due to substance use (Cannabis) Present,0.0,0.0
+ksads_20_678_p,Symptom - Physical problems due to substance use (Cannabis) Past,0.0,0.0
+ksads_20_525_p,Symptom - Persistent desire to reduce substance use Present,1.0,0.021925016443762334
+ksads_20_530_p,Symptom - Persistent desire to reduce substance use Past,1.0,0.021925016443762334
+ksads_20_637_p,Symptom - Persistent desire to reduce substance use (Tobacco) Present,0.0,0.0
+ksads_20_787_p,Symptom - Persistent desire to reduce substance use (Solvent) Past,0.0,0.0
+ksads_20_577_p,Symptom - Persistent desire to reduce substance use (Sedatives) Present,0.0,0.0
+ksads_20_652_p,Symptom - Persistent desire to reduce substance use (Solvent) Present,0.0,0.0
+ksads_20_697_p,Symptom - Persistent desire to reduce substance use (Stimulants) Past,1.0,0.021925016443762334
+ksads_20_772_p,Symptom - Persistent desire to reduce substance use (Tobacco) Past,0.0,0.0
+ksads_20_562_p,Symptom - Persistent desire to reduce substance use (Stimulants) Present,1.0,0.021925016443762334
+ksads_20_682_p,Symptom - Persistent desire to reduce substance use (Cannabis) Past,0.0,0.0
+ksads_20_727_p,Symptom - Persistent desire to reduce substance use (Cocaine) Past,0.0,0.0
+ksads_20_547_p,Symptom - Persistent desire to reduce substance use (Cannabis) Present,0.0,0.0
+ksads_20_757_p,Symptom - Persistent desire to reduce substance use (Hallucinogen) Past,0.0,0.0
+ksads_20_592_p,Symptom - Persistent desire to reduce substance use (Cocaine) Present,0.0,0.0
+ksads_20_742_p,Symptom - Persistent desire to reduce substance use (Opioid) Past,0.0,0.0
+ksads_20_622_p,Symptom - Persistent desire to reduce substance use (Hallucinogen) Present,0.0,0.0
+ksads_20_802_p,Symptom - Persistent desire to reduce substance use (Other Drugs) Past,0.0,0.0
+ksads_20_607_p,Symptom - Persistent desire to reduce substance use (Opioid) Present,0.0,0.0
+ksads_20_667_p,Symptom - Persistent desire to reduce substance use (Other Drugs) Present,0.0,0.0
+ksads_20_712_p,Symptom - Persistent desire to reduce substance use (Sedatives) Past,0.0,0.0
+ksads_20_132_p,Symptom - Negative impact ξinterpersonal problems drug use Present,0.0,0.0
+ksads_20_674_p,Symptom - Negative impact interpersonal problems drug use (Cannabis) Past,0.0,0.0
+ksads_20_719_p,Symptom - Negative impact interpersonal problems drug use (Cocaine) Past,0.0,0.0
+ksads_20_539_p,Symptom - Negative impact interpersonal problems drug use (Cannabis) Present,0.0,0.0
+ksads_20_749_p,Symptom - Negative impact interpersonal problems drug use (Hallucinogen) Past,0.0,0.0
+ksads_20_584_p,Symptom - Negative impact interpersonal problems drug use (Cocaine) Present,0.0,0.0
+ksads_20_734_p,Symptom - Negative impact interpersonal problems drug use (Opioid) Past,0.0,0.0
+ksads_20_614_p,Symptom - Negative impact interpersonal problems drug use (Hallucinogen) Present,0.0,0.0
+ksads_20_794_p,Symptom - Negative impact interpersonal problems drug use (Other Drugs) Past,0.0,0.0
+ksads_20_599_p,Symptom - Negative impact interpersonal problems drug use (Opioid) Present,0.0,0.0
+ksads_20_133_p,Symptom - Negative impact ξinterpersonal problems drug use Past,0.0,0.0
+ksads_20_546_p,Symptom - Important activities given up or reduced due to substance use (Cannabis) Present,0.0,0.0
+ksads_20_681_p,Symptom - Important activities given up or reduced due to substance use (Cannabis) Past,0.0,0.0
+ksads_20_591_p,Symptom - Important activities given up or reduced due to substance use (Cocaine) Present,0.0,0.0
+ksads_20_726_p,Symptom - Important activities given up or reduced due to substance use (Cocaine) Past,0.0,0.0
+ksads_20_606_p,Symptom - Important activities given up or reduced due to substance use (Opioid) Present,0.0,0.0
+ksads_20_741_p,Symptom - Important activities given up or reduced due to substance use (Opioid) Past,0.0,0.0
+ksads_20_621_p,Symptom - Important activities given up or reduced due to substance use (Hallucinogen) Present,0.0,0.0
+ksads_20_756_p,Symptom - Important activities given up or reduced due to substance use (Hallucinogen) Past,0.0,0.0
+ksads_20_666_p,Symptom - Important activities given up or reduced due to substance use (Other Drugs) Present,1.0,0.021925016443762334
+ksads_20_801_p,Symptom - Important activities given up or reduced due to substance use (Other Drugs) Past,0.0,0.0
+ksads_20_576_p,Symptom - Important activities given up or reduced due to substance use (Sedatives) Present,0.0,0.0
+ksads_20_711_p,Symptom - Important activities given up or reduced due to substance use (Sedatives) Past,0.0,0.0
+ksads_20_523_p,Symptom - Important activities given up or reduced due to substance use Present,2.0,0.04385003288752467
+ksads_20_524_p,Symptom - Important activities given up or reduced due to substance use Past,0.0,0.0
+ksads_20_561_p,Symptom - Important activities given up or reduced due to substance use (Stimulants) Present,1.0,0.021925016443762334
+ksads_20_696_p,Symptom - Important activities given up or reduced due to substance use (Stimulants) Past,0.0,0.0
+ksads_20_651_p,Symptom - Important activities given up or reduced due to substance use (Solvent) Present,0.0,0.0
+ksads_20_786_p,Symptom - Important activities given up or reduced due to substance use (Solvent) Past,0.0,0.0
+ksads_20_636_p,Symptom - Important activities given up or reduced due to substance use (Tobacco) Present,0.0,0.0
+ksads_20_771_p,Symptom - Important activities given up or reduced due to substance use (Tobacco) Past,0.0,0.0
+ksads_20_615_p,Symptom - Often used more of substance than planned (Hallucinogen) Present,0.0,0.0
+ksads_20_750_p,Symptom - Often used more of substance than planned (Hallucinogen) Past,0.0,0.0
+ksads_20_600_p,Symptom - Often used more of substance than planned (Opioid) Present,0.0,0.0
+ksads_20_735_p,Symptom - Often used more of substance than planned (Opioid) Past,0.0,0.0
+ksads_20_660_p,Symptom - Often used more of substance than planned (Other Drugs) Present,0.0,0.0
+ksads_20_795_p,Symptom - Often used more of substance than planned (Other Drugs) Past,1.0,0.021925016443762334
+ksads_20_585_p,Symptom - Often used more of substance than planned (Cocaine) Present,0.0,0.0
+ksads_20_720_p,Symptom - Often used more of substance than planned (Cocaine) Past,0.0,0.0
+ksads_20_675_p,Symptom - Often used more of substance than planned (Cannabis) Past,0.0,0.0
+ksads_20_540_p,Symptom - Often used more of substance than planned (Cannabis) Present,0.0,0.0
+ksads_20_130_p,Symptom - Negative impact role obligations miss work drug use Present,1.0,0.021925016443762334
+ksads_20_642_p,Symptom - Negative impact role obligations miss work drug use (Solvent) Present,0.0,0.0
+ksads_20_687_p,Symptom - Negative impact role obligations miss work drug use (Stimulants) Past,0.0,0.0
+ksads_20_762_p,Symptom - Negative impact role obligations miss work drug use (Tobacco) Past,0.0,0.0
+ksads_20_552_p,Symptom - Negative impact role obligations miss work drug use (Stimulants) Present,1.0,0.021925016443762334
+ksads_20_131_p,Symptom - Negative impact role obligations miss work drug use Past,0.0,0.0
+ksads_20_627_p,Symptom - Negative impact role obligations miss work drug use (Tobacco) Present,0.0,0.0
+ksads_20_659_p,Symptom - Negative impact interpersonal problems drug use (Other Drugs) Present,0.0,0.0
+ksads_20_704_p,Symptom - Negative impact interpersonal problems drug use (Sedatives) Past,0.0,0.0
+ksads_20_779_p,Symptom - Negative impact interpersonal problems drug use (Solvent) Past,0.0,0.0
+ksads_20_569_p,Symptom - Negative impact interpersonal problems drug use (Sedatives) Present,0.0,0.0
+ksads_20_689_p,Symptom - Negative impact interpersonal problems drug use (Stimulants) Past,0.0,0.0
+ksads_20_644_p,Symptom - Negative impact interpersonal problems drug use (Solvent) Present,0.0,0.0
+ksads_20_764_p,Symptom - Negative impact interpersonal problems drug use (Tobacco) Past,0.0,0.0
+ksads_20_554_p,Symptom - Negative impact interpersonal problems drug use (Stimulants) Present,0.0,0.0
+ksads_20_672_p,Symptom - Negative impact role obligations miss work drug use (Cannabis) Past,0.0,0.0
+ksads_20_629_p,Symptom - Negative impact interpersonal problems drug use (Tobacco) Present,0.0,0.0
+ksads_20_747_p,Symptom - Negative impact role obligations miss work drug use (Hallucinogen) Past,0.0,0.0
+ksads_20_582_p,Symptom - Negative impact role obligations miss work drug use (Cocaine) Present,0.0,0.0
+ksads_20_717_p,Symptom - Negative impact role obligations miss work drug use (Cocaine) Past,0.0,0.0
+ksads_20_537_p,Symptom - Negative impact role obligations miss work drug use (Cannabis) Present,0.0,0.0
+ksads_20_732_p,Symptom - Negative impact role obligations miss work drug use (Opioid) Past,0.0,0.0
+ksads_20_612_p,Symptom - Negative impact role obligations miss work drug use (Hallucinogen) Present,0.0,0.0
+ksads_20_792_p,Symptom - Negative impact role obligations miss work drug use (Other Drugs) Past,0.0,0.0
+ksads_20_597_p,Symptom - Negative impact role obligations miss work drug use (Opioid) Present,0.0,0.0
+ksads_20_777_p,Symptom - Negative impact role obligations miss work drug use (Solvent) Past,0.0,0.0
+ksads_20_567_p,Symptom - Negative impact role obligations miss work drug use (Sedatives) Present,0.0,0.0
+ksads_20_657_p,Symptom - Negative impact role obligations miss work drug use (Other Drugs) Present,0.0,0.0
+ksads_20_702_p,Symptom - Negative impact role obligations miss work drug use (Sedatives) Past,0.0,0.0
+ksads_20_542_p,Symptom - Substance use in physically dangerous situations (Cannabis) Present,0.0,0.0
+ksads_20_677_p,Symptom - Substance use in physically dangerous situations (Cannabis) Past,0.0,0.0
+ksads_20_536_p,Symptom - Substance Use Abstinence Present,0.0,0.0
+ksads_20_528_p,Symptom - Substance Tolerance Present,0.0,0.0
+ksads_20_587_p,Symptom - Substance use in physically dangerous situations (Cocaine) Present,0.0,0.0
+ksads_20_722_p,Symptom - Substance use in physically dangerous situations (Cocaine) Past,0.0,0.0
+ksads_20_617_p,Symptom - Substance use in physically dangerous situations (Hallucinogen) Present,0.0,0.0
+ksads_20_752_p,Symptom - Substance use in physically dangerous situations (Hallucinogen) Past,0.0,0.0
+ksads_20_602_p,Symptom - Substance use in physically dangerous situations (Opioid) Present,0.0,0.0
+ksads_20_737_p,Symptom - Substance use in physically dangerous situations (Opioid) Past,0.0,0.0
+ksads_20_670_p,Symptom - Substance Tolerance (Other Drugs) Present,0.0,0.0
+ksads_20_715_p,Symptom - Substance Tolerance (Sedatives) Past,0.0,0.0
+ksads_20_790_p,Symptom - Substance Tolerance (Solvent) Past,0.0,0.0
+ksads_20_580_p,Symptom - Substance Tolerance (Sedatives) Present,0.0,0.0
+ksads_20_655_p,Symptom - Substance Tolerance (Solvent) Present,0.0,0.0
+ksads_20_700_p,Symptom - Substance Tolerance (Stimulants) Past,0.0,0.0
+ksads_20_775_p,Symptom - Substance Tolerance (Tobacco) Past,0.0,0.0
+ksads_20_565_p,Symptom - Substance Tolerance (Stimulants) Present,0.0,0.0
+ksads_20_640_p,Symptom - Substance Tolerance (Tobacco) Present,0.0,0.0
+ksads_20_533_p,Symptom - Substance Tolerance Past,0.0,0.0
+ksads_20_662_p,Symptom - Substance use in physically dangerous situations (Other Drugs) Present,0.0,0.0
+ksads_20_797_p,Symptom - Substance use in physically dangerous situations (Other Drugs) Past,0.0,0.0
+ksads_20_572_p,Symptom - Substance use in physically dangerous situations (Sedatives) Present,0.0,0.0
+ksads_20_707_p,Symptom - Substance use in physically dangerous situations (Sedatives) Past,0.0,0.0
+ksads_20_647_p,Symptom - Substance use in physically dangerous situations (Solvent) Present,0.0,0.0
+ksads_20_782_p,Symptom - Substance use in physically dangerous situations (Solvent) Past,0.0,0.0
+ksads_20_557_p,Symptom - Substance use in physically dangerous situations (Stimulants) Present,0.0,0.0
+ksads_20_692_p,Symptom - Substance use in physically dangerous situations (Stimulants) Past,0.0,0.0
+ksads_20_632_p,Symptom - Substance use in physically dangerous situations (Tobacco) Present,0.0,0.0
+ksads_20_767_p,Symptom - Substance use in physically dangerous situations (Tobacco) Past,0.0,0.0
+ksads_20_513_p,Symptom - Substance use in physically dangerous situations Present,0.0,0.0
+ksads_20_515_p,Symptom - Substance use in physically dangerous situations Past,0.0,0.0
+ksads_20_549_p,Symptom - Substance Withdrawal (Cannabis) Present,0.0,0.0
+ksads_20_684_p,Symptom - Substance Withdrawal (Cannabis) Past,0.0,0.0
+ksads_20_594_p,Symptom - Substance Withdrawal (Cocaine) Present,0.0,0.0
+ksads_20_729_p,Symptom - Substance Withdrawal (Cocaine) Past,0.0,0.0
+ksads_20_624_p,Symptom - Substance Withdrawal (Hallucinogen) Present,0.0,0.0
+ksads_20_759_p,Symptom - Substance Withdrawal (Hallucinogen) Past,0.0,0.0
+ksads_20_609_p,Symptom - Substance Withdrawal (Opioid) Present,0.0,0.0
+ksads_20_744_p,Symptom - Substance Withdrawal (Opioid) Past,0.0,0.0
+ksads_20_685_p,Symptom - Substance Tolerance (Cannabis) Past,0.0,0.0
+ksads_20_730_p,Symptom - Substance Tolerance (Cocaine) Past,0.0,0.0
+ksads_20_550_p,Symptom - Substance Tolerance (Cannabis) Present,0.0,0.0
+ksads_20_745_p,Symptom - Substance Tolerance (Opioid) Past,0.0,0.0
+ksads_20_625_p,Symptom - Substance Tolerance (Hallucinogen) Present,0.0,0.0
+ksads_20_760_p,Symptom - Substance Tolerance (Hallucinogen) Past,0.0,0.0
+ksads_20_595_p,Symptom - Substance Tolerance (Cocaine) Present,0.0,0.0
+ksads_20_805_p,Symptom - Substance Tolerance (Other Drugs) Past,0.0,0.0
+ksads_20_610_p,Symptom - Substance Tolerance (Opioid) Present,0.0,0.0
+ksads_20_683_p,Symptom - Unsuccessful efforts to reduce substance use (Cannabis) Past,0.0,0.0
+ksads_20_728_p,Symptom - Unsuccessful efforts to reduce substance use (Cocaine) Past,0.0,0.0
+ksads_20_548_p,Symptom - Unsuccessful efforts to reduce substance use (Cannabis) Present,0.0,0.0
+ksads_20_608_p,Symptom - Unsuccessful efforts to reduce substance use (Opioid) Present,0.0,0.0
+ksads_20_623_p,Symptom - Unsuccessful efforts to reduce substance use (Hallucinogen) Present,0.0,0.0
+ksads_20_758_p,Symptom - Unsuccessful efforts to reduce substance use (Hallucinogen) Past,0.0,0.0
+ksads_20_593_p,Symptom - Unsuccessful efforts to reduce substance use (Cocaine) Present,0.0,0.0
+ksads_20_668_p,Symptom - Unsuccessful efforts to reduce substance use (Other Drugs) Present,0.0,0.0
+ksads_20_803_p,Symptom - Unsuccessful efforts to reduce substance use (Other Drugs) Past,0.0,0.0
+ksads_20_578_p,Symptom - Unsuccessful efforts to reduce substance use (Sedatives) Present,0.0,0.0
+ksads_20_713_p,Symptom - Unsuccessful efforts to reduce substance use (Sedatives) Past,0.0,0.0
+ksads_20_669_p,Symptom - Substance Withdrawal (Other Drugs) Present,0.0,0.0
+ksads_20_804_p,Symptom - Substance Withdrawal (Other Drugs) Past,0.0,0.0
+ksads_20_579_p,Symptom - Substance Withdrawal (Sedatives) Present,0.0,0.0
+ksads_20_714_p,Symptom - Substance Withdrawal (Sedatives) Past,0.0,0.0
+ksads_20_654_p,Symptom - Substance Withdrawal (Solvent) Present,0.0,0.0
+ksads_20_789_p,Symptom - Substance Withdrawal (Solvent) Past,0.0,0.0
+ksads_20_564_p,Symptom - Substance Withdrawal (Stimulants) Present,0.0,0.0
+ksads_20_699_p,Symptom - Substance Withdrawal (Stimulants) Past,0.0,0.0
+ksads_20_527_p,Symptom - Substance Withdrawal Present,0.0,0.0
+ksads_20_532_p,Symptom - Substance Withdrawal Past,0.0,0.0
+ksads_20_639_p,Symptom - Substance Withdrawal (Tobacco) Present,0.0,0.0
+ksads_20_774_p,Symptom - Substance Withdrawal (Tobacco) Past,0.0,0.0
+ksads_20_676_p,Symptom - Use of substance/intoxicated while driving (Cannabis) Past,0.0,0.0
+ksads_20_721_p,Symptom - Use of substance/intoxicated while driving (Cocaine) Past,0.0,0.0
+ksads_20_541_p,Symptom - Use of substance/intoxicated while driving (Cannabis) Present,0.0,0.0
+ksads_20_751_p,Symptom - Use of substance/intoxicated while driving (Hallucinogen) Past,0.0,0.0
+ksads_20_586_p,Symptom - Use of substance/intoxicated while driving (Cocaine) Present,0.0,0.0
+ksads_20_736_p,Symptom - Use of substance/intoxicated while driving (Opioid) Past,0.0,0.0
+ksads_20_616_p,Symptom - Use of substance/intoxicated while driving (Hallucinogen) Present,0.0,0.0
+ksads_20_526_p,Symptom - Unsuccessful efforts to reduce substance use Present,0.0,0.0
+ksads_20_531_p,Symptom - Unsuccessful efforts to reduce substance use Past,0.0,0.0
+ksads_20_743_p,Symptom - Unsuccessful efforts to reduce substance use in (Opioid) Past,0.0,0.0
+ksads_20_653_p,Symptom - Unsuccessful efforts to reduce substance use (Solvent) Present,0.0,0.0
+ksads_20_788_p,Symptom - Unsuccessful efforts to reduce substance use (Solvent) Past,0.0,0.0
+ksads_20_563_p,Symptom - Unsuccessful efforts to reduce substance use (Stimulants) Present,0.0,0.0
+ksads_20_698_p,Symptom - Unsuccessful efforts to reduce substance use (Stimulants) Past,0.0,0.0
+ksads_20_638_p,Symptom - Unsuccessful efforts to reduce substance use (Tobacco) Present,0.0,0.0
+ksads_20_773_p,Symptom - Unsuccessful efforts to reduce substance use (Tobacco) Past,0.0,0.0
+ksads_20_631_p,Symptom - Use of substance/intoxicated while driving (Tobacco) Present,0.0,0.0
+ksads_20_516_p,Symptom - Use of substance/intoxicated while driving Past,0.0,0.0
+ksads_20_514_p,Symptom - Use of substance/intoxicated while driving Present,0.0,0.0
+ksads_20_796_p,Symptom - Use of substance/intoxicated while driving (Other Drugs) Past,0.0,0.0
+ksads_20_601_p,Symptom - Use of substance/intoxicated while driving (Opioid) Present,0.0,0.0
+ksads_20_661_p,Symptom - Use of substance/intoxicated while driving (Other Drugs) Present,0.0,0.0
+ksads_20_706_p,Symptom - Use of substance/intoxicated while driving (Sedatives) Past,0.0,0.0
+ksads_20_571_p,Symptom - Use of substance/intoxicated while driving (Sedatives) Present,0.0,0.0
+ksads_20_691_p,Symptom - Use of substance/intoxicated while driving (Stimulants) Past,0.0,0.0
+ksads_20_646_p,Symptom - Use of substance/intoxicated while driving (Solvent) Present,0.0,0.0
+ksads_20_781_p,Symptom - Use of substance/intoxicated while driving (Solvent) Past,0.0,0.0
+ksads_20_766_p,Symptom - Use of substance/intoxicated while driving (Tobacco) Past,0.0,0.0
+ksads_20_556_p,Symptom - Use of substance/intoxicated while driving (Stimulants) Present,0.0,0.0
+ksads_21_923_p,Diagnosis - Other Specified Trauma-and Stressor-Related Disorder present (PTSD impairment does not meet full criteria (F43.8),14.0,0.30695023021267265
+ksads_21_924_p,Diagnosis - Other Specified Trauma-and Stressor-Related Disorder PAST PTSD impairment does not meet full criteria (F43.8),109.0,2.389826792370094
+ksads_21_921_p,Diagnosis - Post-Traumatic Stress Disorder PRESENT (F94.1),1.0,0.021925016443762334
+ksads_21_922_p,Diagnosis - Post-Traumatic Stress Disorder PAST (F94.1),76.0,1.6663012497259373
+ksads_21_355_p,Symptom - Physiological reactivity to reminders of trauma Present,40.0,0.8770006577504933
+ksads_21_356_p,Symptom - Physiological reactivity to reminders of trauma Past,71.0,1.5566761675071257
+ksads_21_374_p,Symptom - Reckless or self-destructive behavior Past,47.0,1.0304757728568297
+ksads_21_373_p,Symptom - Reckless or self-destructive behavior Present,80.0,1.7540013155009866
+ksads_21_360_p,Symptom - Persistent negative beliefs or expectations Past,124.0,2.718702039026529
+ksads_21_359_p,Symptom - Persistent negative beliefs or expectations Present,3.0,0.065775049331287
+ksads_21_365_p,Symptom - Persistent negative emotional states Present,40.0,0.8770006577504933
+ksads_21_366_p,Symptom - Persistent negative emotional states Past,247.0,5.415479061609297
+ksads_21_138_p,Symptom - Nightmares Past,178.0,3.902652926989695
+ksads_21_137_p,Symptom - Nightmares Present,36.0,0.7893005919754439
+ksads_21_358_p,Symptom - Inability to ξrecall aspects of trauma Past,66.0,1.447051085288314
+ksads_21_369_p,Symptom - Inability to experience positive emotions Present,5.0,0.10962508221881166
+ksads_21_370_p,Symptom - Inability to experience positive emotions Past,44.0,0.9647007235255427
+ksads_21_357_p,Symptom - Inability to ξrecall aspects of trauma Present,13.0,0.2850252137689103
+ksads_21_350_p,Symptom - Intrusive distressing thoughts about the trauma Past,229.0,5.020828765621574
+ksads_21_349_p,Symptom - Intrusive distressing thoughts about the trauma  Present,9.0,0.19732514799386097
+ksads_21_371_p,Symptom - Irritable or aggressive behavior Present,34.0,0.7454505590879192
+ksads_21_372_p,Symptom - Irritable or aggressive behavior Past,204.0,4.472703354527516
+ksads_21_134_p,Symptom - History of traumatic event Present,1586.0,34.773076079807055
+ksads_21_376_p,Symptom - Hypervigilance Past,71.0,1.5566761675071257
+ksads_21_375_p,Symptom - Hypervigilance Present,4.0,0.08770006577504934
+ksads_21_385_p,Symptom - Impairment in functioning due to PTSD Present,138.0,3.025652269239202
+ksads_21_386_p,Symptom - Impairment in functioning due to PTSD Past,235.0,5.152378864284148
+ksads_21_367_p,Symptom - Feelings of Feelings of detachment Present,3.0,0.065775049331287
+ksads_21_368_p,Symptom - Feelings of detachment Past,83.0,1.8197763648322733
+ksads_21_383_p,Symptom - Efforts to avoid external reminders of trauma Present,7.0,0.15347511510633632
+ksads_21_384_p,Symptom - Efforts to avoid external reminders of trauma Past,86.0,1.8855514141635605
+ksads_21_135_p,Symptom - Efforts to avoids thoughts of trauma Present,30.0,0.6577504933128699
+ksads_21_136_p,Symptom - Efforts to avoids thoughts of trauma Past,337.0,7.388730541547907
+ksads_21_377_p,Symptom - Exaggerated startle response Present,35.0,0.7673755755316817
+ksads_21_378_p,Symptom - Exaggerated startle response Past,177.0,3.8807279105459327
+ksads_21_353_p,Symptom - Distress at reminders external cues Present,15.0,0.32887524665643497
+ksads_21_354_p,Symptom - Distress at reminders external cues Past,152.0,3.3326024994518746
+ksads_21_139_p,Symptom - Distress at internal reminders of trauma Present,36.0,0.7893005919754439
+ksads_21_140_p,Symptom - Distress at internal reminders of trauma Past,424.0,9.296206972155229
+ksads_21_391_p,Symptom - Duration at least one month Present,440.0,9.647007235255426
+ksads_21_392_p,Symptom - Duration at least one month Past,280.0,6.139004604253453
+ksads_21_352_p,Symptom - Dissociative reactions (flashbacks) Past,99.0,2.170576627932471
+ksads_21_351_p,Symptom - Dissociative reactions (flashbacks) Present,15.0,0.32887524665643497
+ksads_21_363_p,Symptom - Distorted cognitions about the consequences of the trauma Present,3.0,0.065775049331287
+ksads_21_364_p,Symptom - Distorted cognitions about the consequences of the trauma Past,71.0,1.5566761675071257
+ksads_21_361_p,Symptom - Distorted cognitions about the causes of the trauma Present,3.0,0.065775049331287
+ksads_21_362_p,Symptom - Distorted cognitions about the causes of the trauma Past,109.0,2.389826792370094
+ksads_21_379_p,Symptom - Concentration problems Present,64.0,1.4032010524007894
+ksads_21_380_p,Symptom - Concentration problems Past,171.0,3.749177811883359
+ksads_21_388_p,Symptom - Clinically significant distress due to PTSD Past,399.0,8.74808156106117
+ksads_21_387_p,Symptom - Clinically significant distress due to PTSD Present,354.0,7.761455821091865
+ksads_21_389_p,Symptom - Anhedonia related to PTSD Present,28.0,0.6139004604253453
+ksads_21_390_p,Symptom - Anhedonia related to PTSD Past,108.0,2.367901775926332
+ksads_21_382_p,Symptom - Sleep disturbance Past,191.0,4.187678140758606
+ksads_21_381_p,Symptom - Sleep disturbance Present,36.0,0.7893005919754439
+ksads_22_970_p,Diagnosis - SLEEP PROBLEMS Past,476.0,10.43630782723087
+ksads_22_969_p,Diagnosis - SLEEP PROBLEMS Present,119.0,2.6090769568077175
+ksads_22_141_p,Symptom - Insomnia Present,119.0,2.6090769568077175
+ksads_22_142_p,Symptom - Insomnia Past,476.0,10.43630782723087
+ksads_23_946_p,Diagnosis - SuicidalideationPassivePresent,23.0,0.5042753782065337
+ksads_23_957_p,Diagnosis - SuicidalideationPassivePast,305.0,6.6871300153475115
+ksads_23_954_p,Diagnosis - SuicideAttemptPresent,1.0,0.021925016443762334
+ksads_23_965_p,Diagnosis - SuicideAttemptPast,11.0,0.24117518088138568
+ksads_23_956_p,Diagnosis - SelfInjuriousBehaviorwithoutsuicidalintentPast,183.0,4.012278009208507
+ksads_23_945_p,Diagnosis - SelfInjuriousBehaviorwithoutsuicidalintentPresent,70.0,1.5347511510633634
+ksads_23_950_p,Diagnosis - SuicidalideationActiveplanPresent,0.0,0.0
+ksads_23_961_p,Diagnosis - SuicidalideationActiveplanPast,5.0,0.10962508221881166
+ksads_23_947_p,Diagnosis - SuicidalideationActivenonspecificPresent,44.0,0.9647007235255427
+ksads_23_958_p,Diagnosis - SuicidalideationActivenonspecificPast,146.0,3.2010524007893
+ksads_23_948_p,Diagnosis - SuicidalideationActivemethodPresent,5.0,0.10962508221881166
+ksads_23_959_p,Diagnosis - SuicidalideationActivemethodPast,39.0,0.8550756413067309
+ksads_23_949_p,Diagnosis - SuicidalideationActiveintentPresent,2.0,0.04385003288752467
+ksads_23_960_p,Diagnosis - SuicidalideationActiveintentPast,14.0,0.30695023021267265
+ksads_23_952_p,Diagnosis - InterruptedAttemptPresent,0.0,0.0
+ksads_23_963_p,Diagnosis - InterruptedAttemptPast,2.0,0.04385003288752467
+ksads_23_966_p,Diagnosis - NopastsuicidalideationorbehaviorPast,0.0,0.0
+ksads_23_955_p,Diagnosis - NosuicidalideationorbehaviorPresent,0.0,0.0
+ksads_23_951_p,Diagnosis - PreparatoryActionstowardimminentSuicidalbehaviorPresent,0.0,0.0
+ksads_23_962_p,Diagnosis - PreparatoryActionstowardimminentSuicidalbehaviorPast,7.0,0.15347511510633632
+ksads_23_953_p,Diagnosis - AbortedAttemptPresent,0.0,0.0
+ksads_23_964_p,Diagnosis - AbortedAttemptPast,4.0,0.08770006577504934
+ksads_23_813_p,Symptom - Aborted or interrupted suicide attempts Present,0.0,0.0
+ksads_23_822_p,Symptom - Aborted or interrupted suicide attempts Past,6.0,0.131550098662574
+ksads_23_144_p,Symptom - Self injurious behavio Past,183.0,4.012278009208507
+ksads_23_823_p,Symptom - Number of suicide attempts Past,16.0,0.35080026310019735
+ksads_23_814_p,Symptom - Method of actual suicide attempt Present,1.0,0.021925016443762334
+ksads_23_809_p,Symptom - Suicidal ideation thought of method Present,5.0,0.10962508221881166
+ksads_23_818_p,Symptom - Suicidal ideation thought of method Past,0.0,0.0
+ksads_23_825_p,Symptom - Expect could die from suicide attempt past,0.0,0.0
+ksads_23_149_p,Symptom - Suicidal Attempt Present,1.0,0.021925016443762334
+ksads_23_150_p,Symptom - Suicidal Attempt Past,10.0,0.21925016443762332
+ksads_23_812_p,Symptom - Suicidal behavior made preparations Present,0.0,0.0
+ksads_23_821_p,Symptom - Suicidal behavior made preparations Past,7.0,0.15347511510633632
+ksads_23_808_p,Symptom - Self-Injury thought could die from behavior Present,0.0,0.0
+ksads_23_807_p,Symptom - Self-injury intent to die Present,0.0,0.0
+ksads_23_817_p,Symptom - Self-Injury thought could die from behavior Past,1.0,0.021925016443762334
+ksads_23_816_p,Symptom - Self-injury intent to die Past,0.0,0.0
+ksads_23_143_p,Symptom - Self injurious behavior Present,70.0,1.5347511510633634
+ksads_23_146_p,Symptom - Wishes/Better off dead Past,305.0,6.6871300153475115
+ksads_23_145_p,Symptom - Wishes/Better off dead Present,23.0,0.5042753782065337
+ksads_23_810_p,Symptom - Suicidal ideation intent to act Present,2.0,0.04385003288752467
+ksads_23_819_p,Symptom - Suicidal ideation intent to act Past,14.0,0.30695023021267265
+ksads_23_147_p,Symptom - Suicidal Ideation Present,44.0,0.9647007235255427
+ksads_23_148_p,Symptom - Suicidal Ideation Past,146.0,3.2010524007893
+ksads_23_811_p,Symptom - Suicidal ideation specific plan Present,0.0,0.0
+ksads_23_820_p,Symptom - Suicidal ideation specific plan Past,5.0,0.10962508221881166
+ksads_23_815_p,Symptom - Suicide attempt thought could die Present,1.0,0.021925016443762334
+ksads_23_824_p,Symptom - Suicide attempt method Past,0.0,0.0
+ksads_24_968_p,Diagnosis - HOMICIDAL IDEATION AND BEHAVIOR Past,11.0,0.24117518088138568
+ksads_24_967_p,Diagnosis - HOMICIDAL IDEATION AND BEHAVIOR Present,8.0,0.17540013155009868
+ksads_24_152_p,Symptom - Homicidal Ideation Past,11.0,0.24117518088138568
+ksads_24_153_p,Symptom - Homicide Planning Present,0.0,0.0
+ksads_24_154_p,Symptom - Homicide Planning Past,0.0,0.0
+ksads_24_151_p,Symptom - Homicidal Ideation Present,8.0,0.17540013155009868
+ksads_25_916_p,Diagnosis - Other Specified Anxiety Disorder (Selective Mutism does not meet minimum duration) PAST F41.8,0.0,0.0
+ksads_25_915_p,Diagnosis - Other Specified Anxiety Disorder (Selective Mutism  does not meet minimum duration) F41.8,0.0,0.0
+ksads_25_866_p,Diagnosis - Selective Mutism (F94.0) PAST,0.0,0.0
+ksads_25_865_p,Diagnosis - Selective Mutism (F94.0) PRESENT,0.0,0.0
+ksads_25_314_p,Symptom - Reasons for mutism not due to inability to speak language Present,0.0,0.0
+ksads_25_315_p,Symptom - Reasons for mutism not due to inability to speak language Past,0.0,0.0
+ksads_25_316_p,Symptom - Impairment in functioning due to selective mutism Present,0.0,0.0
+ksads_25_317_p,Symptom - Impairment in functioning due to selective mutism Past,0.0,0.0
+ksads_25_32_p,Symptom - Failure to speak in social situations Present,0.0,0.0
+ksads_25_33_p,Symptom - Failure to speak in social situations Past,0.0,0.0
+ksads_25_318_p,Symptom - Duration at least month for selective mutism Present,0.0,0.0
+ksads_25_319_p,Symptom - Duration at least month for selective mutism Past,0.0,0.0
+ksads_timestamp_p,Starting timestamp for the survey,-1.0,-1.0
+ksads_duration_p,Time duration for the survey,-1.0,-1.0
+collection_title,collection_title,-1.0,-1.0
+study_cohort_name,study_cohort_name,-1.0,-1.0
