@@ -1,5 +1,6 @@
-# Linear Regression + Pearson correlation
-# part1 and part2 are converged
+# Brain Linear Regression
+# You can specify brain/GPS data for input
+# default is morphometric&4kGPS
 
 import pandas as pd
 import numpy as np
@@ -13,64 +14,70 @@ import argparse
 def get_args():
     parser = argparse.ArgumentParser(description='Conducting Linear Regression on GPS and Brain', 
                                     formatter_class=argparse.ArgumentDefaultsHelpFormatter)
-    parser.add_argument('-m', '--mor', type=bool, default=True, help='Morphometric data', dest='mor')
-    parser.add_argument('-c', '--con', type=bool, default=False, help='Connectome data', dest='con')
-    parser.add_argument('-e', '--european', type=bool, default=True, help='4k European GPS', dest='european')
-    parser.add_argument('-me', '--multi-ethnic', type=bool, default=False, help='8k Multi-ethnic GPS', dest='multi_ethnic')
+    parser.add_argument('-b', '--brain', type=str, default='mor', choices=['mor', 'con'], help='Morphometric data', dest='brain')
+    parser.add_argument('-g', '--gps', type=str, default='4k', choices=['4k', '8k'], help='Connectome data', dest='gps')
+
     return parser.parse_args()
 
 def load_files(args):
     print('=====Start Importing Files=====')
     # Import connectome files
-    if args.con:
-        brain = pd.read_csv('/DIR/con_ct_merge.csv', header=0)
+    if args.brain == 'con':
+        brain = pd.read_csv('/home/ubuntu/SEOYOON/BRAIN/Data/con_ct_merge.csv', header=0)
         brain['subjectkey'] = brain['subjectkey'].astype(str)[5:]
 
     # Import morphometric files
-    elif args.mor:
-        brain = pd.read_csv('/DIR/mor_merge.csv', header=0)
+    elif args.brain == 'mor':
+        brain = pd.read_csv('/home/ubuntu/SEOYOON/BRAIN/Data/mor_merge.csv', header=0)
         brain['subjectkey'] = brain['subjectkey'].astype(str)[5:]
+        print(brain.loc[1,'subjectkey'])
 
     else:
         print("No brain data is selected!")
 
     # Import gps
-    start = 0
-    end = 0
     # Import gps - 4k
-    if args.european:
-        gps = pd.read_csv('/DIR/gps_4000.csv', header=0)
+    if args.gps == '4k':
+        gps = pd.read_csv('/home/ubuntu/SEOYOON/GPS/GPS_TOTAL_v2_raw.csv', header=0)
         gps['subjectkey'] = gps['KEY'].astype(str)[4:]
-        start = 1
-        end = 27
+        print(gps.loc[1,'subjectkey'])
 
     # Import gps - 8k
-    elif args.multi_ethnic
-        gps = pd.read_csv('/DIR/gps_8000.csv', header=0)
+    elif args.gps == '8k':
+        gps = pd.read_csv('/home/ubuntu/SEOYOON/GPS/ABCD_all_Pt1_score.csv', header=0)
         gps['subjectkey'] = gps['FID'].astype(str).split("_")[2]
-        start = 2
-        end = 28
+        gps.drop(columns='IID')
 
     else:
         print("No GPS data is selected!")
 
-    return brain, gps, start, end
+    print('Merging two files...')
+    merged = pd.merge(gps, brain, on='subjectkey', how='inner')
+    print('Number of Subjects: {}'.format(len(merged)))
+
+    gps_list = gps.columns[1:27]
+    print("GPS list: ", gps_list)
+        
+    # [0:27] GPS and subject keys
+    # [28: ] brain data
+
+    return merged, gps_list
 
 if __name__ == '__main__':
     args = get_args()
-    brain, gps, start, end = load_files(args)
+    merged, gps_list = load_files(args)
 
     # get only brain brain
     imp = Imputer(missing_values = np.nan, strategy = 'mean')
-    X = brain.iloc[:, 1:]
+    X = merged.iloc[:, 28:]
     X = imp.fit_transform(X.values)
 
     # Do linear regression for each GPS
     print('=====Start Linear Regression=====')
     count = 1
-    for target in gps.iloc[:,start:end].columns:
+    for target in gps_list:
         print('[{}] {}'.format(count, target))
-        y = gps[target]
+        y = merged[target]
         y.values.ravel()
         result = []
         
@@ -78,9 +85,10 @@ if __name__ == '__main__':
         for col in range(length):
             x = X[:,col]
             slope, intercept, r_value, p_value, std_err = stats.linregress(x,y)
-            result.append([brain.columns[col+1], slope, intercept, r_value, p_value, std_err])
+            result.append([merged.columns[col+28], p_value, r_value, slope, intercept, std_err])
 
         print('=====Linear Regression is Successively  Done=====')
-        scipy_result = pd.DataFrame(result, columns=['label', 'slope', 'intercept', 'r_value', 'p_value', 'std_err'])
-        scipy_result.to_csv('_LR_result/brain_'+target+'_LR.csv', index=False)
-        print('======The csv File is Generated=====')
+        scipy_result = pd.DataFrame(result, columns=['label', 'p_value', 'r_value', 'slope', 'intercept', 'std_err'])
+        file_name = '/home/ubuntu/SEOYOON/BRAIN/LinearRegression/'+args.brain+'_'+args.gps+'_'+target+'_LR.csv'
+        scipy_result.to_csv(file_name, index=False)
+        print('Created: {}'.format(file_name))
