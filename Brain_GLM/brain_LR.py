@@ -30,7 +30,6 @@ def load_files(args):
     elif args.brain == 'mor':
         brain = pd.read_csv('/home/ubuntu/SEOYOON/BRAIN/Data/mor_merge.csv', header=0)
         brain['subjectkey'] = brain['subjectkey'].str.split("_").str[1]
-        print(brain.loc[1,'subjectkey'])
 
     else:
         print("No brain data is selected!")
@@ -40,13 +39,12 @@ def load_files(args):
     if args.gps == '4k':
         gps = pd.read_csv('/home/ubuntu/SEOYOON/GPS/GPS_TOTAL_v2_raw.csv', header=0)
         gps['subjectkey'] = gps['KEY'].str[4:]
-        print(gps.loc[1,'subjectkey'])
 
     # Import gps - 8k
     elif args.gps == '8k':
         gps = pd.read_csv('/home/ubuntu/SEOYOON/GPS/ABCD_all_Pt1_score.csv', header=0)
         gps['subjectkey'] = gps['FID'].str.split("_").str[2]
-        gps.drop(columns='IID')
+        gps = gps.drop(columns='IID')
 
     else:
         print("No GPS data is selected!")
@@ -70,6 +68,7 @@ if __name__ == '__main__':
     # get only brain brain
     imp = Imputer(missing_values = np.nan, strategy = 'mean')
     X = merged.iloc[:, 28:]
+    length = len(X.columns)
     X = imp.fit_transform(X.values)
 
     # Do linear regression for each GPS
@@ -81,14 +80,15 @@ if __name__ == '__main__':
         y.values.ravel()
         result = []
         
-        length = len(X.columns)
         for col in range(length):
             x = X[:,col]
             slope, intercept, r_value, p_value, std_err = stats.linregress(x,y)
             result.append([merged.columns[col+28], p_value, r_value, slope, intercept, std_err])
 
-        print('=====Linear Regression is Successively  Done=====')
+        print('Linear Regression is Successively  Done')
         scipy_result = pd.DataFrame(result, columns=['label', 'p_value', 'r_value', 'slope', 'intercept', 'std_err'])
         file_name = '/home/ubuntu/SEOYOON/BRAIN/LinearRegression/'+args.brain+'_'+args.gps+'_'+target+'_LR.csv'
         scipy_result.to_csv(file_name, index=False)
         print('Created: {}'.format(file_name))
+
+        count += 1
