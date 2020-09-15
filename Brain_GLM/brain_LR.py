@@ -24,12 +24,12 @@ def load_files(args):
     # Import connectome files
     if args.brain == 'con':
         brain = pd.read_csv('/home/ubuntu/SEOYOON/BRAIN/Data/con_ct_merge.csv', header=0)
-        brain['subjectkey'] = brain['subjectkey'].astype(str)[5:]
+        brain['subjectkey'] = brain['subjectkey'].str.split("_").str[1]
 
     # Import morphometric files
     elif args.brain == 'mor':
         brain = pd.read_csv('/home/ubuntu/SEOYOON/BRAIN/Data/mor_merge.csv', header=0)
-        brain['subjectkey'] = brain['subjectkey'].astype(str)[5:]
+        brain['subjectkey'] = brain['subjectkey'].str.split("_").str[1]
         print(brain.loc[1,'subjectkey'])
 
     else:
@@ -39,13 +39,13 @@ def load_files(args):
     # Import gps - 4k
     if args.gps == '4k':
         gps = pd.read_csv('/home/ubuntu/SEOYOON/GPS/GPS_TOTAL_v2_raw.csv', header=0)
-        gps['subjectkey'] = gps['KEY'].astype(str)[4:]
+        gps['subjectkey'] = gps['KEY'].str[4:]
         print(gps.loc[1,'subjectkey'])
 
     # Import gps - 8k
     elif args.gps == '8k':
         gps = pd.read_csv('/home/ubuntu/SEOYOON/GPS/ABCD_all_Pt1_score.csv', header=0)
-        gps['subjectkey'] = gps['FID'].astype(str).split("_")[2]
+        gps['subjectkey'] = gps['FID'].str.split("_").str[2]
         gps.drop(columns='IID')
 
     else:
