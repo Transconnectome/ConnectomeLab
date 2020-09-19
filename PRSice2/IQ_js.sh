@@ -30,15 +30,17 @@ Rscript /work/07406/yoonbal/stampede2/PRSice2/PRSice.R \
 --no-regress \
 --score avg \
 --model add \
---maf 0.01 \
---base-maf EAF_HRC:0.01 \
+--maf 0.05 \
+--base-maf EAF_HRC:0.05 \
 --fastscore \
---bar-levels 0.00000005,0.0000005,0.000005,0.00005,0.0005,0.005,0.05,1 \
+--bar-levels 0.05,1 \
 --thread 28 \
 --out /work/07406/yoonbal/stampede2/PRSice2/IQ/IQ \
 --cov /work/07406/yoonbal/stampede2/ABCD_genotype/ABCD_QCed_PRSice2_pca.eigenvec \
 --cov-col @PC[1-10] \
---beta
+--beta \
+--info 0.9 \
+--base-info minINFO:0.90
 # --extract /work/07406/yoonbal/stampede2/PRSice2/IQ/iqout.valid
 # cols in sumstat: SNP	UNIQUE_ID	BP	POS	A1	A2	EAF_HRC	Zscore	stdBeta	SE	P	N_analyzed	minINFO	EffectDirection
 

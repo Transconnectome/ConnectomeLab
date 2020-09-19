@@ -14,7 +14,7 @@ import argparse
 def get_args():
     parser = argparse.ArgumentParser(description='Conducting Linear Regression on GPS and Brain', 
                                     formatter_class=argparse.ArgumentDefaultsHelpFormatter)
-    parser.add_argument('-b', '--brain', type=str, default='mor', choices=['mor', 'con'], help='Morphometric data', dest='brain')
+    parser.add_argument('-b', '--brain', type=str, default='mor', choices=['mor', 'con_ct'], help='Morphometric data', dest='brain')
     parser.add_argument('-g', '--gps', type=str, default='4k', choices=['4k', '8k'], help='Connectome data', dest='gps')
 
     return parser.parse_args()
@@ -22,7 +22,7 @@ def get_args():
 def load_files(args):
     print('=====Start Importing Files=====')
     # Import connectome files
-    if args.brain == 'con':
+    if args.brain == 'con_ct':
         brain = pd.read_csv('/home/ubuntu/SEOYOON/BRAIN/Data/con_ct_merge.csv', header=0)
         brain['subjectkey'] = brain['subjectkey'].str.split("_").str[1]
 
@@ -83,10 +83,10 @@ if __name__ == '__main__':
         for col in range(length):
             x = X[:,col]
             slope, intercept, r_value, p_value, std_err = stats.linregress(x,y)
-            result.append([merged.columns[col+28], p_value, r_value, slope, intercept, std_err])
+            result.append([col+1, merged.columns[col+28], p_value, r_value, slope, intercept, std_err])
 
         print('Linear Regression is Successively  Done')
-        scipy_result = pd.DataFrame(result, columns=['label', 'p_value', 'r_value', 'slope', 'intercept', 'std_err'])
+        scipy_result = pd.DataFrame(result, columns=['index', 'label', 'p_value', 'r_value', 'slope', 'intercept', 'std_err'])
         file_name = '/home/ubuntu/SEOYOON/BRAIN/LinearRegression/'+args.brain+'_'+args.gps+'_'+target+'_LR.csv'
         scipy_result.to_csv(file_name, index=False)
         print('Created: {}'.format(file_name))
