@@ -1,5 +1,5 @@
 # merge gps with demographic data
-gps <- read.csv("gps\\ABCD_all_Pt1_PRSice2_PC1-10resid_scaled.csv")
+gps <- read.csv("gps\\ABCD_all_Pt1_score_new_version_raw.csv")
 str(gps)
 cli <- read.csv("clinic\\abcd_demographic_data.csv", header=T)
 str(cli)
@@ -7,4 +7,4 @@ cli$KEY = sub("_", "", cli$subjectkey)
 str(cli)
 gps_merged <- merge(cli, gps, by='KEY')
 str(gps_merged)
-write.csv(gps_merged, 'gps\\gps_abcd_prsice2_pca_scaled.csv', quote=F, row.names=F)
+write.csv(gps_merged, 'gps\\gps_abcd_8k_new_raw.csv', quote=F, row.names=F)

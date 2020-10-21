@@ -13,24 +13,6 @@ str(gps.mor)
 # where is start of mor
 names(gps.mor)[42]
 
-# test
-length(gps.mor)
-i=42
-
-glm.re <- glm(CP~gps.mor[,i], data=gps.mor, family=gaussian())
-cff <- coef(summary(glm.re))
-cff
-brain <- c(brain, colnames(gps.mor)[i])
-brain
-round(cff[2, 1], 5)
-glm.cff <- c(glm.cff, round(cff[2, 1], 5))
-glm.se <- c(glm.se, round(cff[2, 2], 5))
-glm.p <- c(glm.p, round(cff[2, 4], 10))
-
-glm.cff
-glm.se
-glm.p
-
 # initialize all vector
 brain <- vector()
 glm.cff <- vector()
@@ -53,7 +35,6 @@ head(glm.se)
 head(glm.p)
 
 result <- data.frame(brain, glm.cff, glm.se, glm.p)
-str(result)
 colnames(result) = c("region", 'estimate', 'SE', 'P')
 
 write.csv(result, "glm_mor_gps_CP.csv", quote = F)
