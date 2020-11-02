@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 ######### file specific constants #########
-# first, Suicidal Ideation Active
+# idP: IdeationPassive, idA: IdeationActive, att: Attempt
 test_file = {
     'idP' : "test_train_set/SuicidalideationPassive_test.csv",
     'idA' : "test_train_set/SuicidalideationActive_test.csv",
