@@ -1,11 +1,11 @@
+Codes used in "Genome-Wide Polygenic Scores for Common Traits Identify Young Children with Risk for Suicides"
+
 ## Models
 Model1. Base model A. Y=suicide X=sociodemographic (age, sex, high_educ, marriage, site)    
 Model2. Base model B. Y=suicide X=sociodemographic + KSAD   
 Model3. Y=suicide X=base model A + all 25 GPS       
-Model4. Y=suicide X=base model A + significant GPS  
 Model5. Y=suicide X=base model A + phenotype(w/o KSAD)  
 Model6. Y=suicide X=base model A + phenotype(w/o KSAD) + GPS    
-Model7. Y=suicide X=base model A + phenotype(w/o KSAD) + significant GPS    
 - three suicide data(ideation passive, active and attempt) for each     
 
 ## Codes
