@@ -1,4 +1,5 @@
-Codes used in "Genome-Wide Polygenic Scores for Common Traits Identify Young Children with Risk for Suicides"
+Codes used in "Genome-Wide Polygenic Scores for Common Traits Identify Young Children with Risk for Suicides"    
+Data location: https://drive.google.com/drive/folders/1DrVAIt7VTyAOgOtqxrgrv74BW27Ycu7h?usp=sharing
 
 ## Models
 Model1. Base model A. Y=suicide X=sociodemographic (age, sex, high_educ, marriage, site)    
